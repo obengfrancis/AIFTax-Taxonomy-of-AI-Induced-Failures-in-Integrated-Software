@@ -1,0 +1,74 @@
+﻿Case ID,Field,Annotator A,Annotator B,Source Link(s) / Citation(s)
+4,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/301/
+5,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/303
+5,Recovery Complexity,High,Very High,https://incidentdatabase.ai/cite/303
+7,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/305
+8,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/313
+9,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/685
+9,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/685
+12,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/449
+13,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/364
+20,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/74
+21,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/76
+22,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/532
+23,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/592
+24,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/591
+26,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/587
+26,Recovery Complexity,High,Severe,https://incidentdatabase.ai/cite/587
+28,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/609
+30,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/78
+30,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/78
+32,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/83
+32,Risk Assessment,Severe,Moderate,https://incidentdatabase.ai/cite/83
+33,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/86
+34,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/92
+34,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/92
+38,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/114
+39,Risk Assessment,High,Moderate,https://incidentdatabase.ai/cite/115
+42,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/646
+44,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/654
+48,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/696
+48,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/696
+49,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/699
+57,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/185
+58,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/349
+61,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://www.massdevice.com/report-ibm-watson-delivered-unsafe-and-inaccurate-cancer-recommendations/ ; https://incidentdatabase.ai/cite/225
+62,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/639
+62,Risk Assessment,High,Moderate,https://incidentdatabase.ai/cite/639
+63,Failure Category,Mixed/Hybrid,Operational,https://incidentdatabase.ai/cite/1139
+63,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/1139
+63,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/1139
+64,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/432
+65,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/1085
+67,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/1091
+68,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/1096
+70,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/149
+71,Failure Category,Adversarial,Operational,https://incidentdatabase.ai/cite/84
+72,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/95
+73,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/143
+75,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/635
+76,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/631
+77,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/644
+77,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/644
+78,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P1 - Single downstream component/decision,https://incidentdatabase.ai/cite/839
+79,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/844
+81,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/859
+82,Propagation Reach,P2 - Multi-component/workflow/system-wide,P1 - Single downstream component/decision,https://incidentdatabase.ai/cite/881
+83,Risk Assessment,High,Moderate,https://incidentdatabase.ai/cite/882
+83,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/882
+84,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/740
+84,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/740
+85,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/830
+88,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/123
+88,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/123
+89,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/290
+89,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/290
+91,Recovery Complexity,High,Very High,https://incidentdatabase.ai/cite/1433
+92,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/1109
+94,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/981
+95,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/934
+95,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/934
+96,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/885
+97,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/860
+97,Risk Assessment,High,Moderate,https://incidentdatabase.ai/cite/860
+99,Failure Category,Operational,Distributional,https://incidentdatabase.ai/cite/748

@@ -1,0 +1,1961 @@
+{
+  "metadata": {
+    "annotator_a": "/Users/francisobeng/Developer/AIFTax/Annotation Materials/AIFTax_Annotator_A_Annotation_Completed.xlsx",
+    "annotator_b": "/Users/francisobeng/Developer/AIFTax/Annotation Materials/AIFTax_Annotator_B_Annotation_Completed.xlsx",
+    "sheet": "Annotations",
+    "header_row_a": 2,
+    "header_row_b": 2,
+    "aligned_cases": 100,
+    "case_ids": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100"
+    ],
+    "cases_only_a": [],
+    "cases_only_b": [],
+    "duplicate_case_ids_a": [],
+    "duplicate_case_ids_b": [],
+    "source_link_mismatch_count": 0,
+    "source_link_mismatch_case_ids": [],
+    "bootstrap_iterations": 2000,
+    "bootstrap_seed": 2026,
+    "generated_utc": "2026-07-29T01:20:20+00:00"
+  },
+  "principal": [
+    {
+      "field": "Failure Category",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.89,
+      "disagreements": 11,
+      "kappa": 0.8299319727891155,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": 0.7215966206691312,
+      "ci_upper": 0.919693548772859,
+      "bootstrap_valid": 2000,
+      "confusion_labels": [
+        "Operational",
+        "Distributional",
+        "Adversarial",
+        "Mixed/Hybrid",
+        "IE"
+      ],
+      "confusion_matrix": [
+        [
+          41,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          8,
+          30,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "field": "Propagation Reach",
+      "kind": "ordinal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.64,
+      "disagreements": 36,
+      "kappa": 0.43872778297474274,
+      "linear_weighted_kappa": 0.5220755575785162,
+      "quadratic_weighted_kappa": 0.601063829787234,
+      "n_ordered": 100,
+      "excluded_from_weighted": 0,
+      "ci_lower": 0.446556816618219,
+      "ci_upper": 0.7316305660695747,
+      "bootstrap_valid": 2000,
+      "confusion_labels": [
+        "P0",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          11,
+          5
+        ],
+        [
+          0,
+          1,
+          13,
+          12
+        ],
+        [
+          0,
+          1,
+          6,
+          36
+        ]
+      ]
+    },
+    {
+      "field": "Risk Assessment",
+      "kind": "ordinal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.83,
+      "disagreements": 17,
+      "kappa": 0.7351199750701153,
+      "linear_weighted_kappa": 0.7855611150822016,
+      "quadratic_weighted_kappa": 0.8451053283767038,
+      "n_ordered": 100,
+      "excluded_from_weighted": 0,
+      "ci_lower": 0.7282581638538312,
+      "ci_upper": 0.9203937999695955,
+      "bootstrap_valid": 2000,
+      "confusion_labels": [
+        "Low",
+        "Moderate",
+        "High",
+        "Severe",
+        "Critical"
+      ],
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          31,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          12,
+          38,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "field": "Recovery Complexity",
+      "kind": "ordinal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.91,
+      "disagreements": 9,
+      "kappa": 0.8810310641110378,
+      "linear_weighted_kappa": 0.9136713231831738,
+      "quadratic_weighted_kappa": 0.9428702010968921,
+      "n_ordered": 100,
+      "excluded_from_weighted": 0,
+      "ci_lower": 0.884998534550241,
+      "ci_upper": 0.9800564395787412,
+      "bootstrap_valid": 2000,
+      "confusion_labels": [
+        "Low",
+        "Moderate",
+        "High",
+        "Severe",
+        "Very High"
+      ],
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          31,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          19,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          21
+        ]
+      ]
+    }
+  ],
+  "supporting_controlled": [
+    {
+      "field": "System Type",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.86,
+      "disagreements": 14,
+      "kappa": 0.8278194564014267,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "autonomous control/robotics system",
+        "classification/recognition system",
+        "composite/multi-system ai",
+        "decision-support/optimization system",
+        "generative/conversational system",
+        "moderation/filtering/detection system",
+        "predictive/scoring model",
+        "recommendation/ranking system",
+        "surveillance/identification system"
+      ],
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          3,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          34,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "field": "Industry",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.84,
+      "disagreements": 16,
+      "kappa": 0.8166819431714023,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "education & workforce",
+        "finance, retail & commerce",
+        "government & public services",
+        "healthcare & medicine",
+        "other",
+        "security & law enforcement",
+        "social media & platforms",
+        "technology & ai services",
+        "transportation & automotive"
+      ],
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          8,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          0,
+          9,
+          2,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          14,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          13,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "field": "Manifestation Pattern",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.87,
+      "disagreements": 13,
+      "kappa": 0.8533724340175953,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "biased / disparate decision",
+        "false negative / omission",
+        "hallucinated / fabricated output",
+        "human override / oversight failure",
+        "incorrect recommendation / ranking / amplification",
+        "incorrect score / prediction / allocation",
+        "manipulated / deceptive content",
+        "misclassification / false positive",
+        "multiple - specify",
+        "privacy intrusion / surveillance",
+        "service disruption / unavailability",
+        "unauthorized access / data exposure",
+        "unsafe physical action or control"
+      ],
+      "confusion_matrix": [
+        [
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          16,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          2,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "field": "Boundary Transfer",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 1.0,
+      "disagreements": 0,
+      "kappa": 1.0,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "y"
+      ],
+      "confusion_matrix": [
+        [
+          100
+        ]
+      ]
+    },
+    {
+      "field": "Transfer Mode",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.92,
+      "disagreements": 8,
+      "kappa": 0.1735537190082639,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "signaled",
+        "silent"
+      ],
+      "confusion_matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          7,
+          91
+        ]
+      ]
+    },
+    {
+      "field": "Amplification",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.82,
+      "disagreements": 18,
+      "kappa": 0.5194874532835024,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "n",
+        "y"
+      ],
+      "confusion_matrix": [
+        [
+          15,
+          16
+        ],
+        [
+          2,
+          67
+        ]
+      ]
+    },
+    {
+      "field": "Detector",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.8,
+      "disagreements": 20,
+      "kappa": 0.7425003218745977,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "affected user",
+        "ie",
+        "operator",
+        "organization",
+        "regulator/legal",
+        "researcher/media",
+        "third party"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          11,
+          4,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          21,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          2,
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "field": "Detection Signal",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.63,
+      "disagreements": 37,
+      "kappa": 0.4735344336937962,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "behavioral anomaly",
+        "consequence-based",
+        "contestation/appeal",
+        "explicit error/alarm",
+        "ie",
+        "pattern/statistical"
+      ],
+      "confusion_matrix": [
+        [
+          22,
+          1,
+          6,
+          0,
+          0,
+          10
+        ],
+        [
+          1,
+          9,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          6,
+          0,
+          0,
+          5
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          4,
+          0,
+          0,
+          26
+        ]
+      ]
+    },
+    {
+      "field": "Risk Domain",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.8,
+      "disagreements": 20,
+      "kappa": 0.7470915528578654,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "fairness, civil rights & access",
+        "financial & economic harm",
+        "human autonomy & oversight",
+        "information integrity & content harm",
+        "legal, regulatory & governance",
+        "privacy & data protection",
+        "safety & health",
+        "security & malicious use",
+        "service reliability & operations",
+        "social, psychological & trust"
+      ],
+      "confusion_matrix": [
+        [
+          32,
+          0,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          13,
+          0,
+          0,
+          0,
+          5,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          6,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "field": "Recovery Evidence Status",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.76,
+      "disagreements": 24,
+      "kappa": 0.4241842610364683,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "documented",
+        "inferred"
+      ],
+      "confusion_matrix": [
+        [
+          17,
+          7
+        ],
+        [
+          17,
+          59
+        ]
+      ]
+    },
+    {
+      "field": "Temporal Pattern",
+      "kind": "nominal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.68,
+      "disagreements": 32,
+      "kappa": 0.47523778287963275,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
+      "n_ordered": null,
+      "excluded_from_weighted": null,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "ongoing pattern",
+        "recurring incidents",
+        "single event"
+      ],
+      "confusion_matrix": [
+        [
+          43,
+          20,
+          1
+        ],
+        [
+          1,
+          5,
+          5
+        ],
+        [
+          2,
+          3,
+          20
+        ]
+      ]
+    },
+    {
+      "field": "Detection Timing",
+      "kind": "ordinal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 0.83,
+      "disagreements": 17,
+      "kappa": 0.7376543209876543,
+      "linear_weighted_kappa": 0.807476231633535,
+      "quadratic_weighted_kappa": 0.8697711128650355,
+      "n_ordered": 99,
+      "excluded_from_weighted": 1,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "Immediate",
+        "Delayed",
+        "Retrospective",
+        "IE"
+      ],
+      "confusion_matrix": [
+        [
+          30,
+          3,
+          1,
+          0
+        ],
+        [
+          1,
+          13,
+          11,
+          0
+        ],
+        [
+          0,
+          1,
+          39,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "field": "Lifecycle Phase",
+      "kind": "ordinal",
+      "n_aligned": 100,
+      "n_paired": 100,
+      "missing_a": 0,
+      "missing_b": 0,
+      "exact": 1.0,
+      "disagreements": 0,
+      "kappa": 1.0,
+      "linear_weighted_kappa": 1.0,
+      "quadratic_weighted_kappa": 1.0,
+      "n_ordered": 100,
+      "excluded_from_weighted": 0,
+      "ci_lower": null,
+      "ci_upper": null,
+      "bootstrap_valid": 0,
+      "confusion_labels": [
+        "Pre-deployment",
+        "Deployment/Rollout",
+        "Post-deployment"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          100
+        ]
+      ]
+    }
+  ],
+  "multilabel": [
+    {
+      "n": 100,
+      "exact": 0.75,
+      "mean_jaccard": 0.7566666666666667,
+      "micro_f1": 0.7582938388625592,
+      "macro_label_kappa": 0.6893859081668592,
+      "label_count": 17,
+      "per_label": [
+        {
+          "label": "bias & discrimination",
+          "a_positive": 25,
+          "b_positive": 26,
+          "binary_agreement": 0.99,
+          "kappa": 0.9736842105263158
+        },
+        {
+          "label": "capability limitation",
+          "a_positive": 15,
+          "b_positive": 22,
+          "binary_agreement": 0.91,
+          "kappa": 0.7039473684210527
+        },
+        {
+          "label": "content generation/filtering failure",
+          "a_positive": 4,
+          "b_positive": 8,
+          "binary_agreement": 0.96,
+          "kappa": 0.6478873239436618
+        },
+        {
+          "label": "data/domain shift",
+          "a_positive": 5,
+          "b_positive": 2,
+          "binary_agreement": 0.97,
+          "kappa": 0.5588235294117647
+        },
+        {
+          "label": "design/implementation defect",
+          "a_positive": 8,
+          "b_positive": 6,
+          "binary_agreement": 0.96,
+          "kappa": 0.693251533742331
+        },
+        {
+          "label": "disinformation/manipulation",
+          "a_positive": 3,
+          "b_positive": 5,
+          "binary_agreement": 0.96,
+          "kappa": 0.4805194805194805
+        },
+        {
+          "label": "hallucination/confabulation",
+          "a_positive": 5,
+          "b_positive": 5,
+          "binary_agreement": 0.98,
+          "kappa": 0.7894736842105263
+        },
+        {
+          "label": "identity/impersonation/deepfake",
+          "a_positive": 5,
+          "b_positive": 3,
+          "binary_agreement": 0.98,
+          "kappa": 0.7402597402597403
+        },
+        {
+          "label": "information quality/input handling failure",
+          "a_positive": 7,
+          "b_positive": 6,
+          "binary_agreement": 0.93,
+          "kappa": 0.4243421052631585
+        },
+        {
+          "label": "infrastructure/dependency failure",
+          "a_positive": 1,
+          "b_positive": 1,
+          "binary_agreement": 1.0,
+          "kappa": 1.0
+        },
+        {
+          "label": "nation-state/military exploitation",
+          "a_positive": 3,
+          "b_positive": 2,
+          "binary_agreement": 0.99,
+          "kappa": 0.7950819672131144
+        },
+        {
+          "label": "objective/metric misalignment",
+          "a_positive": 4,
+          "b_positive": 5,
+          "binary_agreement": 0.97,
+          "kappa": 0.6511627906976745
+        },
+        {
+          "label": "prediction/calibration failure",
+          "a_positive": 2,
+          "b_positive": 0,
+          "binary_agreement": 0.98,
+          "kappa": 0.0
+        },
+        {
+          "label": "representation/low-resource gap",
+          "a_positive": 7,
+          "b_positive": 3,
+          "binary_agreement": 0.96,
+          "kappa": 0.5824634655532355
+        },
+        {
+          "label": "safety validation/oversight gap",
+          "a_positive": 9,
+          "b_positive": 8,
+          "binary_agreement": 0.95,
+          "kappa": 0.6786632390745497
+        },
+        {
+          "label": "security exploitation",
+          "a_positive": 2,
+          "b_positive": 2,
+          "binary_agreement": 1.0,
+          "kappa": 1.0
+        },
+        {
+          "label": "targeting/surveillance abuse",
+          "a_positive": 1,
+          "b_positive": 1,
+          "binary_agreement": 1.0,
+          "kappa": 1.0
+        }
+      ],
+      "field": "Failure Mode(s)",
+      "missing_a": 0,
+      "missing_b": 0,
+      "disagreements": 25
+    },
+    {
+      "n": 100,
+      "exact": 0.3,
+      "mean_jaccard": 0.6368333333333333,
+      "micro_f1": 0.7495429616087751,
+      "macro_label_kappa": 0.5967983206774853,
+      "label_count": 12,
+      "per_label": [
+        {
+          "label": "civil rights / fairness / access",
+          "a_positive": 41,
+          "b_positive": 42,
+          "binary_agreement": 0.91,
+          "kappa": 0.8146622734761121
+        },
+        {
+          "label": "education / employment",
+          "a_positive": 14,
+          "b_positive": 9,
+          "binary_agreement": 0.91,
+          "kappa": 0.5605468750000003
+        },
+        {
+          "label": "environmental",
+          "a_positive": 1,
+          "b_positive": 0,
+          "binary_agreement": 0.99,
+          "kappa": 0.0
+        },
+        {
+          "label": "financial / economic",
+          "a_positive": 28,
+          "b_positive": 34,
+          "binary_agreement": 0.88,
+          "kappa": 0.7206703910614525
+        },
+        {
+          "label": "information integrity",
+          "a_positive": 25,
+          "b_positive": 21,
+          "binary_agreement": 0.92,
+          "kappa": 0.7746478873239437
+        },
+        {
+          "label": "legal / regulatory",
+          "a_positive": 28,
+          "b_positive": 14,
+          "binary_agreement": 0.8,
+          "kappa": 0.4145199063231852
+        },
+        {
+          "label": "physical safety / health",
+          "a_positive": 27,
+          "b_positive": 30,
+          "binary_agreement": 0.95,
+          "kappa": 0.8774509803921567
+        },
+        {
+          "label": "privacy / data protection",
+          "a_positive": 11,
+          "b_positive": 10,
+          "binary_agreement": 0.95,
+          "kappa": 0.734042553191489
+        },
+        {
+          "label": "psychological / social",
+          "a_positive": 29,
+          "b_positive": 17,
+          "binary_agreement": 0.84,
+          "kappa": 0.5572772551189817
+        },
+        {
+          "label": "reputational / trust",
+          "a_positive": 50,
+          "b_positive": 38,
+          "binary_agreement": 0.68,
+          "kappa": 0.3600000000000001
+        },
+        {
+          "label": "security / abuse",
+          "a_positive": 9,
+          "b_positive": 13,
+          "binary_agreement": 0.94,
+          "kappa": 0.694811800610376
+        },
+        {
+          "label": "service / operational",
+          "a_positive": 27,
+          "b_positive": 29,
+          "binary_agreement": 0.86,
+          "kappa": 0.6529499256321268
+        }
+      ],
+      "field": "Impact Dimension(s)",
+      "missing_a": 0,
+      "missing_b": 0,
+      "disagreements": 70
+    },
+    {
+      "n": 100,
+      "exact": 0.04,
+      "mean_jaccard": 0.30083333333333334,
+      "micro_f1": 0.4277227722772277,
+      "macro_label_kappa": 0.23007010164440614,
+      "label_count": 17,
+      "per_label": [
+        {
+          "label": "affected-case review/redress",
+          "a_positive": 14,
+          "b_positive": 28,
+          "binary_agreement": 0.82,
+          "kappa": 0.47306791569086637
+        },
+        {
+          "label": "architectural/platform redesign",
+          "a_positive": 0,
+          "b_positive": 1,
+          "binary_agreement": 0.99,
+          "kappa": 0.0
+        },
+        {
+          "label": "data correction",
+          "a_positive": 3,
+          "b_positive": 8,
+          "binary_agreement": 0.89,
+          "kappa": -0.04562737642585468
+        },
+        {
+          "label": "downstream validation addition",
+          "a_positive": 14,
+          "b_positive": 27,
+          "binary_agreement": 0.77,
+          "kappa": 0.3122009569377989
+        },
+        {
+          "label": "fallback/human-escalation addition",
+          "a_positive": 5,
+          "b_positive": 16,
+          "binary_agreement": 0.81,
+          "kappa": 0.02061855670103151
+        },
+        {
+          "label": "interface/workflow/component modification",
+          "a_positive": 5,
+          "b_positive": 9,
+          "binary_agreement": 0.88,
+          "kappa": 0.08396946564885581
+        },
+        {
+          "label": "legal/regulatory remediation",
+          "a_positive": 24,
+          "b_positive": 17,
+          "binary_agreement": 0.81,
+          "kappa": 0.42143727161997585
+        },
+        {
+          "label": "local rollback/content correction",
+          "a_positive": 17,
+          "b_positive": 22,
+          "binary_agreement": 0.81,
+          "kappa": 0.3972081218274114
+        },
+        {
+          "label": "major algorithm redesign",
+          "a_positive": 13,
+          "b_positive": 0,
+          "binary_agreement": 0.87,
+          "kappa": 0.0
+        },
+        {
+          "label": "model retraining/revalidation",
+          "a_positive": 27,
+          "b_positive": 41,
+          "binary_agreement": 0.74,
+          "kappa": 0.43305713039686
+        },
+        {
+          "label": "model/subsystem replacement",
+          "a_positive": 7,
+          "b_positive": 2,
+          "binary_agreement": 0.91,
+          "kappa": -0.032110091743118255
+        },
+        {
+          "label": "monitoring/drift-detection addition",
+          "a_positive": 15,
+          "b_positive": 17,
+          "binary_agreement": 0.86,
+          "kappa": 0.4795539033457251
+        },
+        {
+          "label": "organizational/process change",
+          "a_positive": 28,
+          "b_positive": 23,
+          "binary_agreement": 0.63,
+          "kappa": 0.029380902413431238
+        },
+        {
+          "label": "policy/governance change",
+          "a_positive": 28,
+          "b_positive": 39,
+          "binary_agreement": 0.63,
+          "kappa": 0.18069087688219665
+        },
+        {
+          "label": "service suspension/retirement",
+          "a_positive": 8,
+          "b_positive": 11,
+          "binary_agreement": 0.95,
+          "kappa": 0.7099767981438511
+        },
+        {
+          "label": "software/pipeline repair",
+          "a_positive": 4,
+          "b_positive": 11,
+          "binary_agreement": 0.89,
+          "kappa": 0.22096317280453323
+        },
+        {
+          "label": "threshold/configuration adjustment",
+          "a_positive": 5,
+          "b_positive": 16,
+          "binary_agreement": 0.85,
+          "kappa": 0.22680412371134034
+        }
+      ],
+      "field": "Recovery / Maintenance Action(s)",
+      "missing_a": 0,
+      "missing_b": 0,
+      "disagreements": 96
+    },
+    {
+      "n": 100,
+      "exact": 0.25,
+      "mean_jaccard": 0.5826666666666667,
+      "micro_f1": 0.6789838337182448,
+      "macro_label_kappa": 0.5352388659814995,
+      "label_count": 8,
+      "per_label": [
+        {
+          "label": "adversarial actor",
+          "a_positive": 14,
+          "b_positive": 13,
+          "binary_agreement": 0.99,
+          "kappa": 0.9571917808219178
+        },
+        {
+          "label": "data",
+          "a_positive": 45,
+          "b_positive": 38,
+          "binary_agreement": 0.85,
+          "kappa": 0.6926229508196721
+        },
+        {
+          "label": "human/organizational governance",
+          "a_positive": 32,
+          "b_positive": 30,
+          "binary_agreement": 0.64,
+          "kappa": 0.15887850467289732
+        },
+        {
+          "label": "infrastructure/dependency",
+          "a_positive": 1,
+          "b_positive": 1,
+          "binary_agreement": 1.0,
+          "kappa": 1.0
+        },
+        {
+          "label": "integration/interface",
+          "a_positive": 16,
+          "b_positive": 39,
+          "binary_agreement": 0.63,
+          "kappa": 0.129821260583255
+        },
+        {
+          "label": "model",
+          "a_positive": 67,
+          "b_positive": 79,
+          "binary_agreement": 0.86,
+          "kappa": 0.6512207274539111
+        },
+        {
+          "label": "operational process",
+          "a_positive": 12,
+          "b_positive": 25,
+          "binary_agreement": 0.71,
+          "kappa": 0.06451612903225777
+        },
+        {
+          "label": "software/implementation",
+          "a_positive": 10,
+          "b_positive": 11,
+          "binary_agreement": 0.93,
+          "kappa": 0.6276595744680853
+        }
+      ],
+      "field": "Causal Location(s)",
+      "missing_a": 0,
+      "missing_b": 0,
+      "disagreements": 75
+    }
+  ],
+  "text_diagnostics": [
+    {
+      "field": "Date",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 100,
+      "normalized_exact": 1.0
+    },
+    {
+      "field": "Entity",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 75,
+      "normalized_exact": 0.75
+    },
+    {
+      "field": "Title",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 76,
+      "normalized_exact": 0.76
+    },
+    {
+      "field": "Application Domain",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 100,
+      "normalized_exact": 1.0
+    },
+    {
+      "field": "Manifestation — Brief Description",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 0,
+      "normalized_exact": 0.0
+    },
+    {
+      "field": "Propagation Chain",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 71,
+      "normalized_exact": 0.71
+    },
+    {
+      "field": "Risk Subdomain",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 58,
+      "normalized_exact": 0.58
+    },
+    {
+      "field": "Causal Mechanism",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 0,
+      "normalized_exact": 0.0
+    },
+    {
+      "field": "Missing Safeguard",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 0,
+      "normalized_exact": 0.0
+    },
+    {
+      "field": "Root Cause Description",
+      "n_aligned": 100,
+      "both_present": 100,
+      "both_blank": 0,
+      "one_blank": 0,
+      "normalized_exact_count": 0,
+      "normalized_exact": 0.0
+    },
+    {
+      "field": "Timing / Period",
+      "n_aligned": 100,
+      "both_present": 6,
+      "both_blank": 68,
+      "one_blank": 26,
+      "normalized_exact_count": 0,
+      "normalized_exact": 0.0
+    }
+  ],
+  "vocabulary_issues": []
+}

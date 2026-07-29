@@ -1,0 +1,80 @@
+{
+  "input_file": "/Users/francisobeng/Developer/AIFTax/Final_Corpus_and_Adjudicated_Log/AIFTax_Final_Adjudicated_Dataset.xlsx",
+  "cases": 100,
+  "primary_categories": {
+    "Operational": 48,
+    "Distributional": 33,
+    "Adversarial": 14,
+    "Mixed/Hybrid": 5
+  },
+  "subcategories": {
+    "Bias & Discrimination": 24,
+    "Capability Limitation": 20,
+    "Design & Implementation": 13,
+    "Safety Validation": 8,
+    "Disinformation & Manipulation": 7,
+    "Prediction & Drift": 6,
+    "Distributional + Operational": 5,
+    "Identity & Targeting": 5,
+    "Content Generation": 4,
+    "Hallucination": 3,
+    "Information Quality": 3,
+    "Security Exploitation": 2
+  },
+  "risk_levels": {
+    "Critical": 3,
+    "Severe": 41,
+    "High": 40,
+    "Moderate": 14,
+    "Low": 2
+  },
+  "sectors": {
+    "Healthcare & Medicine": 12,
+    "Government & Public Services": 7,
+    "Social Media & Platforms": 20,
+    "Transportation & Automotive": 10,
+    "Technology & AI Services": 15,
+    "Security & Law Enforcement": 15,
+    "Finance, Retail & Commerce": 9,
+    "Education & Workforce": 9,
+    "Other": 3
+  },
+  "recovery_levels": {
+    "Very High": 21,
+    "Severe": 26,
+    "High": 33,
+    "Moderate": 16,
+    "Low": 4
+  },
+  "propagation_levels": {
+    "P1": 20,
+    "P2": 25,
+    "P3": 55
+  },
+  "system_types": {
+    "Generative/Conversational System": 38,
+    "Predictive/Scoring Model": 13,
+    "Surveillance/Identification System": 12,
+    "Moderation/Filtering/Detection System": 9,
+    "Recommendation/Ranking System": 8,
+    "Autonomous Control/Robotics System": 7,
+    "Decision-Support/Optimization System": 6,
+    "Composite/Multi-System AI": 4,
+    "Classification/Recognition System": 3
+  },
+  "temporal_patterns": {
+    "Ongoing pattern": 61,
+    "Single event": 31,
+    "Recurring incidents": 8
+  },
+  "years": {
+    "2018": 7,
+    "2019": 4,
+    "2020": 16,
+    "2021": 10,
+    "2022": 12,
+    "2023": 11,
+    "2024": 23,
+    "2025": 17
+  }
+}

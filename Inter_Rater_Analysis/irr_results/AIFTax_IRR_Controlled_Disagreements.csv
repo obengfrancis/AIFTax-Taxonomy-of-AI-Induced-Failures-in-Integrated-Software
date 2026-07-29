@@ -1,0 +1,559 @@
+﻿Case ID,Field,Annotator A,Annotator B,Source Link(s) / Citation(s)
+1,Temporal Pattern,Recurring incidents,Single event,https://incidentdatabase.ai/cite/2
+1,Detection Timing,Immediate,Delayed,https://incidentdatabase.ai/cite/2
+1,Recovery / Maintenance Action(s),Legal/regulatory remediation,Model retraining/revalidation; Downstream validation addition; Organizational/process change,https://incidentdatabase.ai/cite/2
+1,Causal Location(s),Model,Model; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/2
+2,Recovery / Maintenance Action(s),Major algorithm redesign; Legal/regulatory remediation,Model retraining/revalidation; Fallback/human-escalation addition; Legal/regulatory remediation,https://incidentdatabase.ai/cite/4/
+2,Causal Location(s),Model,Model; Integration/Interface; Human/Organizational Governance,https://incidentdatabase.ai/cite/4/
+3,Detection Signal,Pattern/statistical,Behavioral anomaly,https://incidentdatabase.ai/cite/300
+3,Recovery / Maintenance Action(s),Major algorithm redesign,Model retraining/revalidation; Policy/governance change; Monitoring/drift-detection addition,https://incidentdatabase.ai/cite/300
+3,Causal Location(s),Model; Human/Organizational Governance,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/300
+4,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/301/
+4,System Type,Surveillance/Identification System,Moderation/Filtering/Detection System,https://incidentdatabase.ai/cite/301/
+4,Transfer Mode,Silent,Signaled,https://incidentdatabase.ai/cite/301/
+4,Amplification,N,Y,https://incidentdatabase.ai/cite/301/
+4,Detection Signal,Behavioral anomaly,Contestation/appeal,https://incidentdatabase.ai/cite/301/
+4,Temporal Pattern,Single event,Ongoing pattern,https://incidentdatabase.ai/cite/301/
+4,Recovery / Maintenance Action(s),Data correction; Model retraining/revalidation; Local rollback/content correction,Model retraining/revalidation; Affected-case review/redress; Policy/governance change,https://incidentdatabase.ai/cite/301/
+4,Causal Location(s),Data; Model; Human/Organizational Governance,Data; Model; Operational Process,https://incidentdatabase.ai/cite/301/
+5,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/303
+5,Recovery Complexity,High,Very High,https://incidentdatabase.ai/cite/303
+5,Amplification,N,Y,https://incidentdatabase.ai/cite/303
+5,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/303
+5,Temporal Pattern,Single event,Recurring incidents,https://incidentdatabase.ai/cite/303
+5,Impact Dimension(s),Civil rights / fairness / access; Privacy / data protection; Reputational / trust,Service / operational; Privacy / data protection; Legal / regulatory,https://incidentdatabase.ai/cite/303
+5,Recovery / Maintenance Action(s),Affected-case review/redress; Organizational/process change; Policy/governance change,Affected-case review/redress; Fallback/human-escalation addition; Policy/governance change,https://incidentdatabase.ai/cite/303
+5,Causal Location(s),Model; Human/Organizational Governance,Model; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/303
+6,Detection Signal,Behavioral anomaly,Consequence-based,https://incidentdatabase.ai/cite/304
+6,Risk Domain,Safety & Health,Human Autonomy & Oversight,https://incidentdatabase.ai/cite/304
+6,Impact Dimension(s),Physical safety / health; Service / operational; Financial / economic,Physical safety / health; Service / operational,https://incidentdatabase.ai/cite/304
+6,Recovery / Maintenance Action(s),Model/subsystem replacement; Legal/regulatory remediation,Software/pipeline repair; Fallback/human-escalation addition; Downstream validation addition,https://incidentdatabase.ai/cite/304
+6,Causal Location(s),Software/Implementation; Human/Organizational Governance,Model; Software/Implementation; Integration/Interface,https://incidentdatabase.ai/cite/304
+7,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/305
+7,Recovery / Maintenance Action(s),Model retraining/revalidation; Organizational/process change; Policy/governance change,Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/305
+8,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/313
+8,Industry,Technology & AI Services,Social Media & Platforms,https://incidentdatabase.ai/cite/313
+8,Amplification,N,Y,https://incidentdatabase.ai/cite/313
+8,Impact Dimension(s),Information integrity; Reputational / trust; Legal / regulatory,Reputational / trust; Information integrity; Psychological / social,https://incidentdatabase.ai/cite/313
+8,Recovery / Maintenance Action(s),Local rollback/content correction; Legal/regulatory remediation,Local rollback/content correction; Downstream validation addition,https://incidentdatabase.ai/cite/313
+8,Causal Location(s),Model; Integration/Interface,Model,https://incidentdatabase.ai/cite/313
+9,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/685
+9,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/685
+9,Manifestation Pattern,Incorrect recommendation / ranking / amplification,Hallucinated / fabricated output,https://incidentdatabase.ai/cite/685
+9,Amplification,N,Y,https://incidentdatabase.ai/cite/685
+9,Impact Dimension(s),Physical safety / health; Reputational / trust,Physical safety / health; Service / operational; Reputational / trust,https://incidentdatabase.ai/cite/685
+9,Recovery / Maintenance Action(s),Model retraining/revalidation; Major algorithm redesign; Organizational/process change,Model retraining/revalidation; Fallback/human-escalation addition; Policy/governance change,https://incidentdatabase.ai/cite/685
+9,Causal Location(s),Model,Model; Operational Process,https://incidentdatabase.ai/cite/685
+10,Risk Domain,"Fairness, Civil Rights & Access",Safety & Health,https://incidentdatabase.ai/cite/608
+10,Failure Mode(s),Capability Limitation,Objective/Metric Misalignment,https://incidentdatabase.ai/cite/608
+10,Recovery / Maintenance Action(s),Major algorithm redesign; Affected-case review/redress; Policy/governance change,Affected-case review/redress; Interface/workflow/component modification; Legal/regulatory remediation,https://incidentdatabase.ai/cite/608
+10,Causal Location(s),Model,Model; Integration/Interface; Human/Organizational Governance,https://incidentdatabase.ai/cite/608
+11,System Type,Decision-Support/Optimization System,Predictive/Scoring Model,https://incidentdatabase.ai/cite/603
+11,Manifestation Pattern,Incorrect score / prediction / allocation,Biased / disparate decision,https://incidentdatabase.ai/cite/603
+11,Detector,Third party,Regulator/legal,https://incidentdatabase.ai/cite/603
+11,Recovery / Maintenance Action(s),Major algorithm redesign; Policy/governance change; Legal/regulatory remediation,Model retraining/revalidation; Affected-case review/redress; Policy/governance change,https://incidentdatabase.ai/cite/603
+11,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/603
+12,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/449
+12,Amplification,N,Y,https://incidentdatabase.ai/cite/449
+12,Temporal Pattern,Single event,Ongoing pattern,https://incidentdatabase.ai/cite/449
+12,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/449
+12,Impact Dimension(s),Psychological / social; Legal / regulatory; Reputational / trust,Psychological / social; Privacy / data protection; Reputational / trust,https://incidentdatabase.ai/cite/449
+12,Recovery / Maintenance Action(s),Policy/governance change,Service suspension/retirement; Policy/governance change,https://incidentdatabase.ai/cite/449
+12,Causal Location(s),Operational Process; Human/Organizational Governance,Integration/Interface; Human/Organizational Governance,https://incidentdatabase.ai/cite/449
+13,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/364
+13,Transfer Mode,Silent,Signaled,https://incidentdatabase.ai/cite/364
+13,Amplification,N,Y,https://incidentdatabase.ai/cite/364
+13,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/364
+13,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/364
+13,Impact Dimension(s),Physical safety / health; Service / operational; Education / employment,Physical safety / health; Service / operational,https://incidentdatabase.ai/cite/364
+13,Recovery / Maintenance Action(s),Threshold/configuration adjustment; Policy/governance change,Threshold/configuration adjustment; Interface/workflow/component modification; Organizational/process change,https://incidentdatabase.ai/cite/364
+13,Causal Location(s),Model,Model; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/364
+14,Manifestation Pattern,Incorrect score / prediction / allocation,Biased / disparate decision,https://incidentdatabase.ai/cite/124
+14,Recovery / Maintenance Action(s),Local rollback/content correction; Model/subsystem replacement; Major algorithm redesign,Data correction; Model retraining/revalidation; Affected-case review/redress,https://incidentdatabase.ai/cite/124
+15,Risk Domain,"Social, Psychological & Trust","Fairness, Civil Rights & Access",https://incidentdatabase.ai/cite/36
+15,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/36
+15,Impact Dimension(s),Psychological / social; Reputational / trust,Reputational / trust,https://incidentdatabase.ai/cite/36
+15,Recovery / Maintenance Action(s),Local rollback/content correction,Software/pipeline repair; Local rollback/content correction,https://incidentdatabase.ai/cite/36
+15,Causal Location(s),Model,Model; Software/Implementation; Integration/Interface,https://incidentdatabase.ai/cite/36
+16,Transfer Mode,Silent,Signaled,https://incidentdatabase.ai/cite/311
+16,Risk Domain,"Fairness, Civil Rights & Access",Information Integrity & Content Harm,https://incidentdatabase.ai/cite/311
+16,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/311
+16,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/311
+16,Impact Dimension(s),Education / employment; Service / operational; Financial / economic,Financial / economic; Service / operational; Civil rights / fairness / access,https://incidentdatabase.ai/cite/311
+16,Recovery / Maintenance Action(s),Organizational/process change,Local rollback/content correction; Fallback/human-escalation addition; Organizational/process change,https://incidentdatabase.ai/cite/311
+16,Causal Location(s),Model,Model; Operational Process,https://incidentdatabase.ai/cite/311
+17,Recovery / Maintenance Action(s),Major algorithm redesign; Legal/regulatory remediation,Model retraining/revalidation; Fallback/human-escalation addition; Legal/regulatory remediation,https://incidentdatabase.ai/cite/321
+17,Causal Location(s),Model,Model; Integration/Interface; Human/Organizational Governance,https://incidentdatabase.ai/cite/321
+18,Temporal Pattern,Recurring incidents,Single event,https://incidentdatabase.ai/cite/323
+18,Recovery / Maintenance Action(s),Major algorithm redesign; Legal/regulatory remediation,Model retraining/revalidation; Fallback/human-escalation addition; Legal/regulatory remediation,https://incidentdatabase.ai/cite/323
+18,Causal Location(s),Model,Model; Integration/Interface; Human/Organizational Governance,https://incidentdatabase.ai/cite/323
+19,Risk Domain,"Legal, Regulatory & Governance","Fairness, Civil Rights & Access",https://incidentdatabase.ai/cite/331
+19,Impact Dimension(s),Civil rights / fairness / access; Information integrity; Legal / regulatory,Civil rights / fairness / access,https://incidentdatabase.ai/cite/331
+19,Recovery / Maintenance Action(s),Local rollback/content correction,Software/pipeline repair; Monitoring/drift-detection addition,https://incidentdatabase.ai/cite/331
+19,Causal Location(s),Software/Implementation,Software/Implementation; Model,https://incidentdatabase.ai/cite/331
+20,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/74
+20,Amplification,N,Y,https://incidentdatabase.ai/cite/74
+20,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/74
+20,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/74
+20,Impact Dimension(s),Civil rights / fairness / access; Psychological / social; Financial / economic,Financial / economic; Civil rights / fairness / access; Reputational / trust,https://incidentdatabase.ai/cite/74
+20,Recovery / Maintenance Action(s),Model/subsystem replacement; Policy/governance change; Legal/regulatory remediation,Affected-case review/redress; Policy/governance change; Legal/regulatory remediation,https://incidentdatabase.ai/cite/74
+20,Causal Location(s),Data; Model,Data; Model; Operational Process,https://incidentdatabase.ai/cite/74
+21,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/76
+21,Detector,Researcher/media,Third party,https://incidentdatabase.ai/cite/76
+21,Detection Signal,Pattern/statistical,Behavioral anomaly,https://incidentdatabase.ai/cite/76
+21,Failure Mode(s),Safety Validation/Oversight Gap,Design/Implementation Defect,https://incidentdatabase.ai/cite/76
+21,Recovery / Maintenance Action(s),Service suspension/retirement; Legal/regulatory remediation,Service suspension/retirement; Affected-case review/redress; Legal/regulatory remediation,https://incidentdatabase.ai/cite/76
+21,Causal Location(s),Operational Process; Human/Organizational Governance,Data; Integration/Interface; Human/Organizational Governance,https://incidentdatabase.ai/cite/76
+22,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/532
+22,Amplification,N,Y,https://incidentdatabase.ai/cite/532
+22,Detection Signal,Behavioral anomaly,Contestation/appeal,https://incidentdatabase.ai/cite/532
+22,Impact Dimension(s),Civil rights / fairness / access; Legal / regulatory; Psychological / social,Financial / economic; Civil rights / fairness / access; Legal / regulatory,https://incidentdatabase.ai/cite/532
+22,Recovery / Maintenance Action(s),Downstream validation addition; Affected-case review/redress; Policy/governance change,Model retraining/revalidation; Fallback/human-escalation addition; Affected-case review/redress,https://incidentdatabase.ai/cite/532
+22,Causal Location(s),Data; Model,Data; Model; Integration/Interface,https://incidentdatabase.ai/cite/532
+23,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/592
+23,Amplification,N,Y,https://incidentdatabase.ai/cite/592
+23,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/592
+23,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/592
+23,Impact Dimension(s),Civil rights / fairness / access; Physical safety / health; Psychological / social,Physical safety / health; Financial / economic; Civil rights / fairness / access,https://incidentdatabase.ai/cite/592
+23,Recovery / Maintenance Action(s),Model retraining/revalidation,Affected-case review/redress; Policy/governance change; Legal/regulatory remediation,https://incidentdatabase.ai/cite/592
+23,Causal Location(s),Data; Model,Data; Model; Operational Process,https://incidentdatabase.ai/cite/592
+24,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/591
+24,Detection Signal,Contestation/appeal,Pattern/statistical,https://incidentdatabase.ai/cite/591
+24,Risk Domain,"Fairness, Civil Rights & Access",Safety & Health,https://incidentdatabase.ai/cite/591
+24,Failure Mode(s),Design/Implementation Defect,Objective/Metric Misalignment,https://incidentdatabase.ai/cite/591
+24,Recovery / Maintenance Action(s),Major algorithm redesign; Policy/governance change; Legal/regulatory remediation,Affected-case review/redress; Interface/workflow/component modification; Legal/regulatory remediation,https://incidentdatabase.ai/cite/591
+24,Causal Location(s),Software/Implementation; Human/Organizational Governance; Integration/Interface,Model; Integration/Interface; Human/Organizational Governance,https://incidentdatabase.ai/cite/591
+25,Detection Signal,Explicit error/alarm,Consequence-based,https://incidentdatabase.ai/cite/595
+25,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/595
+25,Impact Dimension(s),Service / operational; Physical safety / health; Reputational / trust,Physical safety / health; Service / operational; Civil rights / fairness / access,https://incidentdatabase.ai/cite/595
+25,Recovery / Maintenance Action(s),Software/pipeline repair,Software/pipeline repair; Fallback/human-escalation addition; Interface/workflow/component modification,https://incidentdatabase.ai/cite/595
+25,Causal Location(s),Infrastructure/Dependency,Infrastructure/Dependency; Software/Implementation; Operational Process,https://incidentdatabase.ai/cite/595
+26,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/587
+26,Recovery Complexity,High,Severe,https://incidentdatabase.ai/cite/587
+26,Amplification,N,Y,https://incidentdatabase.ai/cite/587
+26,Detection Signal,Contestation/appeal,Behavioral anomaly,https://incidentdatabase.ai/cite/587
+26,Recovery Evidence Status,Documented,Inferred,https://incidentdatabase.ai/cite/587
+26,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/587
+26,Failure Mode(s),Representation/Low-Resource Gap,Bias & Discrimination,https://incidentdatabase.ai/cite/587
+26,Impact Dimension(s),Civil rights / fairness / access; Reputational / trust,Civil rights / fairness / access,https://incidentdatabase.ai/cite/587
+26,Recovery / Maintenance Action(s),Model retraining/revalidation; Local rollback/content correction,Data correction; Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/587
+26,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/587
+27,Impact Dimension(s),Physical safety / health; Information integrity; Reputational / trust,Physical safety / health; Reputational / trust,https://incidentdatabase.ai/cite/594
+27,Recovery / Maintenance Action(s),Organizational/process change,Local rollback/content correction; Downstream validation addition; Service suspension/retirement,https://incidentdatabase.ai/cite/594
+27,Causal Location(s),Model; Operational Process,Model; Integration/Interface,https://incidentdatabase.ai/cite/594
+28,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/609
+28,Impact Dimension(s),Information integrity; Reputational / trust,Information integrity; Reputational / trust; Education / employment,https://incidentdatabase.ai/cite/609
+28,Recovery / Maintenance Action(s),Downstream validation addition,Local rollback/content correction; Downstream validation addition,https://incidentdatabase.ai/cite/609
+28,Causal Location(s),Data; Integration/Interface,Model; Integration/Interface,https://incidentdatabase.ai/cite/609
+29,Detection Signal,Contestation/appeal,Pattern/statistical,https://incidentdatabase.ai/cite/611
+29,Impact Dimension(s),Civil rights / fairness / access; Financial / economic; Legal / regulatory,Financial / economic; Service / operational; Civil rights / fairness / access,https://incidentdatabase.ai/cite/611
+29,Recovery / Maintenance Action(s),Model retraining/revalidation,Model retraining/revalidation; Affected-case review/redress; Policy/governance change,https://incidentdatabase.ai/cite/611
+29,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/611
+30,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/78
+30,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/78
+30,Detection Signal,Consequence-based,Behavioral anomaly,https://incidentdatabase.ai/cite/78
+30,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/78
+30,Failure Mode(s),Data/Domain Shift,Capability Limitation,https://incidentdatabase.ai/cite/78
+30,Recovery / Maintenance Action(s),Affected-case review/redress,Affected-case review/redress; Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/78
+30,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/78
+31,System Type,Classification/Recognition System,Autonomous Control/Robotics System,https://incidentdatabase.ai/cite/80
+31,Recovery / Maintenance Action(s),Threshold/configuration adjustment; Organizational/process change,Model retraining/revalidation; Fallback/human-escalation addition,https://incidentdatabase.ai/cite/80
+32,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/83
+32,Risk Assessment,Severe,Moderate,https://incidentdatabase.ai/cite/83
+32,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/83
+32,Impact Dimension(s),Civil rights / fairness / access; Education / employment; Service / operational,Civil rights / fairness / access; Education / employment,https://incidentdatabase.ai/cite/83
+32,Recovery / Maintenance Action(s),Model retraining/revalidation; Organizational/process change,Threshold/configuration adjustment; Model retraining/revalidation; Fallback/human-escalation addition,https://incidentdatabase.ai/cite/83
+33,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/86
+33,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/86
+33,Impact Dimension(s),Education / employment; Civil rights / fairness / access; Legal / regulatory,Civil rights / fairness / access; Education / employment,https://incidentdatabase.ai/cite/86
+33,Recovery / Maintenance Action(s),Legal/regulatory remediation,Software/pipeline repair; Affected-case review/redress; Organizational/process change,https://incidentdatabase.ai/cite/86
+33,Causal Location(s),Software/Implementation,Software/Implementation; Operational Process,https://incidentdatabase.ai/cite/86
+34,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/92
+34,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/92
+34,Detection Timing,Delayed,Immediate,https://incidentdatabase.ai/cite/92
+34,Impact Dimension(s),Civil rights / fairness / access; Financial / economic; Legal / regulatory,Financial / economic; Civil rights / fairness / access,https://incidentdatabase.ai/cite/92
+34,Recovery / Maintenance Action(s),Legal/regulatory remediation,Model retraining/revalidation; Affected-case review/redress; Policy/governance change,https://incidentdatabase.ai/cite/92
+34,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/92
+35,Industry,Social Media & Platforms,Technology & AI Services,https://incidentdatabase.ai/cite/106
+35,Detection Signal,Behavioral anomaly,Contestation/appeal,https://incidentdatabase.ai/cite/106
+35,Risk Domain,Privacy & Data Protection,"Fairness, Civil Rights & Access",https://incidentdatabase.ai/cite/106
+35,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/106
+35,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/106
+35,Recovery / Maintenance Action(s),Service suspension/retirement; Policy/governance change,Service suspension/retirement; Data correction; Policy/governance change,https://incidentdatabase.ai/cite/106
+35,Causal Location(s),Data; Model; Operational Process,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/106
+36,Industry,Security & Law Enforcement,"Finance, Retail & Commerce",https://incidentdatabase.ai/cite/108
+36,Detector,Third party,Affected user,https://incidentdatabase.ai/cite/108
+36,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/108
+36,Temporal Pattern,Recurring incidents,Single event,https://incidentdatabase.ai/cite/108
+36,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/108
+36,Impact Dimension(s),Civil rights / fairness / access; Psychological / social; Reputational / trust,Civil rights / fairness / access,https://incidentdatabase.ai/cite/108
+36,Recovery / Maintenance Action(s),Model retraining/revalidation; Organizational/process change; Policy/governance change,Threshold/configuration adjustment; Affected-case review/redress; Organizational/process change,https://incidentdatabase.ai/cite/108
+36,Causal Location(s),Data; Model,Data; Model; Integration/Interface,https://incidentdatabase.ai/cite/108
+37,System Type,Recommendation/Ranking System,Classification/Recognition System,https://incidentdatabase.ai/cite/113
+37,Manifestation Pattern,Multiple - specify,Misclassification / false positive,https://incidentdatabase.ai/cite/113
+37,Detector,Operator,Organization,https://incidentdatabase.ai/cite/113
+37,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/113
+37,Impact Dimension(s),Civil rights / fairness / access; Psychological / social; Reputational / trust,Civil rights / fairness / access; Psychological / social,https://incidentdatabase.ai/cite/113
+37,Recovery / Maintenance Action(s),Model retraining/revalidation; Organizational/process change,Service suspension/retirement; Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/113
+37,Causal Location(s),Data; Model; Human/Organizational Governance,Data; Model,https://incidentdatabase.ai/cite/113
+38,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/114
+38,Amplification,N,Y,https://incidentdatabase.ai/cite/114
+38,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/114
+38,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/114
+38,Detection Timing,Immediate,Retrospective,https://incidentdatabase.ai/cite/114
+38,Impact Dimension(s),Civil rights / fairness / access; Legal / regulatory; Reputational / trust,Civil rights / fairness / access,https://incidentdatabase.ai/cite/114
+38,Recovery / Maintenance Action(s),Model retraining/revalidation; Organizational/process change; Legal/regulatory remediation,Threshold/configuration adjustment; Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/114
+39,Risk Assessment,High,Moderate,https://incidentdatabase.ai/cite/115
+39,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/115
+39,Recovery Evidence Status,Documented,Inferred,https://incidentdatabase.ai/cite/115
+39,Impact Dimension(s),Civil rights / fairness / access; Education / employment; Reputational / trust,Civil rights / fairness / access,https://incidentdatabase.ai/cite/115
+39,Recovery / Maintenance Action(s),Service suspension/retirement; Affected-case review/redress,Service suspension/retirement; Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/115
+40,System Type,Surveillance/Identification System,Moderation/Filtering/Detection System,https://incidentdatabase.ai/cite/116
+40,Industry,Education & Workforce,Transportation & Automotive,https://incidentdatabase.ai/cite/116
+40,Detection Signal,Contestation/appeal,Pattern/statistical,https://incidentdatabase.ai/cite/116
+40,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/116
+40,Recovery / Maintenance Action(s),Model retraining/revalidation; Affected-case review/redress; Organizational/process change,Threshold/configuration adjustment; Affected-case review/redress; Organizational/process change,https://incidentdatabase.ai/cite/116
+40,Causal Location(s),Model,Model; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/116
+41,Impact Dimension(s),Civil rights / fairness / access; Education / employment; Financial / economic,Financial / economic; Civil rights / fairness / access,https://incidentdatabase.ai/cite/117
+41,Recovery / Maintenance Action(s),Model retraining/revalidation; Local rollback/content correction; Organizational/process change,Model retraining/revalidation; Monitoring/drift-detection addition; Policy/governance change,https://incidentdatabase.ai/cite/117
+42,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/646
+42,Amplification,N,Y,https://incidentdatabase.ai/cite/646
+42,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/646
+42,Impact Dimension(s),Physical safety / health; Psychological / social; Legal / regulatory,Physical safety / health,https://incidentdatabase.ai/cite/646
+42,Recovery / Maintenance Action(s),Major algorithm redesign; Legal/regulatory remediation,Threshold/configuration adjustment; Downstream validation addition; Policy/governance change,https://incidentdatabase.ai/cite/646
+42,Causal Location(s),Operational Process; Human/Organizational Governance,Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/646
+43,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/647
+43,Impact Dimension(s),Physical safety / health; Reputational / trust,Physical safety / health,https://incidentdatabase.ai/cite/647
+43,Recovery / Maintenance Action(s),Legal/regulatory remediation,Model retraining/revalidation; Software/pipeline repair; Legal/regulatory remediation,https://incidentdatabase.ai/cite/647
+43,Causal Location(s),Model,Model; Integration/Interface,https://incidentdatabase.ai/cite/647
+44,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/654
+44,Amplification,N,Y,https://incidentdatabase.ai/cite/654
+44,Detector,Operator,Organization,https://incidentdatabase.ai/cite/654
+44,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/654
+44,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/654
+44,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/654
+44,Impact Dimension(s),Psychological / social; Information integrity; Reputational / trust,Physical safety / health; Civil rights / fairness / access; Psychological / social,https://incidentdatabase.ai/cite/654
+44,Recovery / Maintenance Action(s),Model retraining/revalidation; Organizational/process change; Legal/regulatory remediation,Threshold/configuration adjustment; Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/654
+45,Risk Domain,Privacy & Data Protection,Information Integrity & Content Harm,https://incidentdatabase.ai/cite/662
+45,Recovery Evidence Status,Documented,Inferred,https://incidentdatabase.ai/cite/662
+45,Impact Dimension(s),Privacy / data protection; Psychological / social; Reputational / trust,Physical safety / health; Psychological / social,https://incidentdatabase.ai/cite/662
+45,Recovery / Maintenance Action(s),Local rollback/content correction; Policy/governance change,Local rollback/content correction; Downstream validation addition,https://incidentdatabase.ai/cite/662
+45,Causal Location(s),Model; Operational Process,Model; Integration/Interface,https://incidentdatabase.ai/cite/662
+46,Industry,Security & Law Enforcement,"Finance, Retail & Commerce",https://incidentdatabase.ai/cite/665
+46,Temporal Pattern,Ongoing pattern,Single event,https://incidentdatabase.ai/cite/665
+46,Impact Dimension(s),Civil rights / fairness / access; Psychological / social; Reputational / trust,Civil rights / fairness / access,https://incidentdatabase.ai/cite/665
+46,Recovery / Maintenance Action(s),Model retraining/revalidation; Organizational/process change; Policy/governance change,Threshold/configuration adjustment; Affected-case review/redress; Organizational/process change,https://incidentdatabase.ai/cite/665
+46,Causal Location(s),Data; Model,Data; Model; Integration/Interface,https://incidentdatabase.ai/cite/665
+47,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/693
+47,Failure Mode(s),Information Quality/Input Handling Failure,Content Generation/Filtering Failure,https://incidentdatabase.ai/cite/693
+47,Impact Dimension(s),Information integrity; Physical safety / health; Reputational / trust,Physical safety / health; Information integrity,https://incidentdatabase.ai/cite/693
+47,Recovery / Maintenance Action(s),Model retraining/revalidation; Downstream validation addition; Organizational/process change,Local rollback/content correction; Threshold/configuration adjustment; Downstream validation addition,https://incidentdatabase.ai/cite/693
+47,Causal Location(s),Data; Integration/Interface,Model; Integration/Interface,https://incidentdatabase.ai/cite/693
+48,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/696
+48,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/696
+48,System Type,Recommendation/Ranking System,Decision-Support/Optimization System,https://incidentdatabase.ai/cite/696
+48,Detection Timing,Immediate,Delayed,https://incidentdatabase.ai/cite/696
+48,Impact Dimension(s),Financial / economic; Service / operational; Reputational / trust,Financial / economic; Service / operational,https://incidentdatabase.ai/cite/696
+48,Recovery / Maintenance Action(s),Major algorithm redesign,Threshold/configuration adjustment; Monitoring/drift-detection addition; Downstream validation addition,https://incidentdatabase.ai/cite/696
+48,Causal Location(s),Software/Implementation; Human/Organizational Governance,Model; Software/Implementation; Integration/Interface,https://incidentdatabase.ai/cite/696
+49,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/699
+49,Impact Dimension(s),Civil rights / fairness / access; Physical safety / health; Psychological / social,Physical safety / health; Civil rights / fairness / access,https://incidentdatabase.ai/cite/699
+49,Recovery / Maintenance Action(s),Major algorithm redesign,Data correction; Model retraining/revalidation; Affected-case review/redress,https://incidentdatabase.ai/cite/699
+49,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/699
+50,Industry,Security & Law Enforcement,Government & Public Services,https://incidentdatabase.ai/cite/484
+50,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/484
+50,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/484
+50,Impact Dimension(s),Civil rights / fairness / access; Legal / regulatory; Psychological / social,Civil rights / fairness / access; Legal / regulatory,https://incidentdatabase.ai/cite/484
+50,Recovery / Maintenance Action(s),Policy/governance change,Model retraining/revalidation; Fallback/human-escalation addition; Interface/workflow/component modification,https://incidentdatabase.ai/cite/484
+50,Causal Location(s),Data; Model,Data; Model; Integration/Interface,https://incidentdatabase.ai/cite/484
+51,Manifestation Pattern,Hallucinated / fabricated output,Biased / disparate decision,https://incidentdatabase.ai/cite/645
+51,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/645
+51,Failure Mode(s),Objective/Metric Misalignment,Content Generation/Filtering Failure,https://incidentdatabase.ai/cite/645
+51,Recovery / Maintenance Action(s),Model retraining/revalidation; Local rollback/content correction; Organizational/process change,Model retraining/revalidation; Policy/governance change; Downstream validation addition,https://incidentdatabase.ai/cite/645
+51,Causal Location(s),Model; Human/Organizational Governance,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/645
+52,Industry,Security & Law Enforcement,Technology & AI Services,https://incidentdatabase.ai/cite/1054
+52,Manifestation Pattern,Manipulated / deceptive content,Multiple - specify,https://incidentdatabase.ai/cite/1054
+52,Detector,Organization,Researcher/media,https://incidentdatabase.ai/cite/1054
+52,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/1054
+52,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/1054
+52,Recovery / Maintenance Action(s),Monitoring/drift-detection addition; Policy/governance change,Monitoring/drift-detection addition; Policy/governance change; Organizational/process change,https://incidentdatabase.ai/cite/1054
+52,Causal Location(s),Adversarial Actor; Integration/Interface,Adversarial Actor,https://incidentdatabase.ai/cite/1054
+53,System Type,Generative/Conversational System,Composite/Multi-System AI,https://incidentdatabase.ai/cite/1055
+53,Detection Signal,Contestation/appeal,Pattern/statistical,https://incidentdatabase.ai/cite/1055
+53,Impact Dimension(s),Security / abuse; Service / operational; Financial / economic,Security / abuse; Service / operational; Information integrity,https://incidentdatabase.ai/cite/1055
+53,Recovery / Maintenance Action(s),Monitoring/drift-detection addition,Monitoring/drift-detection addition; Organizational/process change; Legal/regulatory remediation,https://incidentdatabase.ai/cite/1055
+53,Causal Location(s),Adversarial Actor; Integration/Interface,Adversarial Actor,https://incidentdatabase.ai/cite/1055
+54,Industry,"Finance, Retail & Commerce",Social Media & Platforms,https://incidentdatabase.ai/cite/1056
+54,Detector,Organization,Regulator/legal,https://incidentdatabase.ai/cite/1056
+54,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/1056
+54,Recovery / Maintenance Action(s),Local rollback/content correction; Monitoring/drift-detection addition; Legal/regulatory remediation,Local rollback/content correction; Legal/regulatory remediation,https://incidentdatabase.ai/cite/1056
+55,Detection Signal,Behavioral anomaly,Contestation/appeal,https://incidentdatabase.ai/cite/1059
+55,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/1059
+55,Failure Mode(s),Identity/Impersonation/Deepfake,Disinformation/Manipulation,https://incidentdatabase.ai/cite/1059
+55,Recovery / Maintenance Action(s),Local rollback/content correction; Policy/governance change,Local rollback/content correction; Monitoring/drift-detection addition,https://incidentdatabase.ai/cite/1059
+56,System Type,Generative/Conversational System,Composite/Multi-System AI,https://incidentdatabase.ai/cite/1061
+56,Industry,Security & Law Enforcement,Social Media & Platforms,https://incidentdatabase.ai/cite/1061
+56,Risk Domain,Information Integrity & Content Harm,Security & Malicious Use,https://incidentdatabase.ai/cite/1061
+56,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/1061
+56,Impact Dimension(s),Information integrity; Reputational / trust; Legal / regulatory,Information integrity; Security / abuse; Reputational / trust,https://incidentdatabase.ai/cite/1061
+56,Recovery / Maintenance Action(s),Monitoring/drift-detection addition; Downstream validation addition,Local rollback/content correction; Monitoring/drift-detection addition; Legal/regulatory remediation,https://incidentdatabase.ai/cite/1061
+57,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/185
+57,Impact Dimension(s),Information integrity; Reputational / trust; Psychological / social,Information integrity; Reputational / trust,https://incidentdatabase.ai/cite/185
+57,Recovery / Maintenance Action(s),Monitoring/drift-detection addition; Downstream validation addition,Threshold/configuration adjustment; Monitoring/drift-detection addition; Policy/governance change,https://incidentdatabase.ai/cite/185
+58,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/349
+58,Manifestation Pattern,Multiple - specify,Misclassification / false positive,https://incidentdatabase.ai/cite/349
+58,Transfer Mode,Silent,Signaled,https://incidentdatabase.ai/cite/349
+58,Recovery Evidence Status,Documented,Inferred,https://incidentdatabase.ai/cite/349
+58,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/349
+58,Detection Timing,Immediate,Delayed,https://incidentdatabase.ai/cite/349
+58,Impact Dimension(s),Physical safety / health; Service / operational; Legal / regulatory,Physical safety / health; Security / abuse; Reputational / trust,https://incidentdatabase.ai/cite/349
+58,Recovery / Maintenance Action(s),Threshold/configuration adjustment; Fallback/human-escalation addition; Organizational/process change,Threshold/configuration adjustment; Model retraining/revalidation; Interface/workflow/component modification,https://incidentdatabase.ai/cite/349
+58,Causal Location(s),Model; Operational Process; Human/Organizational Governance,Model; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/349
+59,Impact Dimension(s),Physical safety / health; Service / operational; Reputational / trust,Physical safety / health; Reputational / trust,https://incidentdatabase.ai/cite/173
+59,Recovery / Maintenance Action(s),Downstream validation addition,Data correction; Model retraining/revalidation; Organizational/process change,https://incidentdatabase.ai/cite/173
+59,Causal Location(s),Data; Model; Operational Process,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/173
+60,Industry,Security & Law Enforcement,Social Media & Platforms,https://incidentdatabase.ai/cite/198
+60,Detector,Organization,Researcher/media,https://incidentdatabase.ai/cite/198
+60,Risk Domain,Information Integrity & Content Harm,Security & Malicious Use,https://incidentdatabase.ai/cite/198
+60,Failure Mode(s),Nation-State/Military Exploitation,Disinformation/Manipulation,https://incidentdatabase.ai/cite/198
+60,Impact Dimension(s),Information integrity; Security / abuse; Reputational / trust,Information integrity; Security / abuse; Psychological / social,https://incidentdatabase.ai/cite/198
+60,Recovery / Maintenance Action(s),Local rollback/content correction; Organizational/process change,Local rollback/content correction; Monitoring/drift-detection addition; Policy/governance change,https://incidentdatabase.ai/cite/198
+61,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://www.massdevice.com/report-ibm-watson-delivered-unsafe-and-inaccurate-cancer-recommendations/ ; https://incidentdatabase.ai/cite/225
+61,Detector,Operator,Researcher/media,https://www.massdevice.com/report-ibm-watson-delivered-unsafe-and-inaccurate-cancer-recommendations/ ; https://incidentdatabase.ai/cite/225
+61,Detection Signal,Pattern/statistical,Contestation/appeal,https://www.massdevice.com/report-ibm-watson-delivered-unsafe-and-inaccurate-cancer-recommendations/ ; https://incidentdatabase.ai/cite/225
+61,Failure Mode(s),Safety Validation/Oversight Gap,Capability Limitation,https://www.massdevice.com/report-ibm-watson-delivered-unsafe-and-inaccurate-cancer-recommendations/ ; https://incidentdatabase.ai/cite/225
+61,Impact Dimension(s),Physical safety / health; Service / operational; Reputational / trust,Physical safety / health; Financial / economic; Service / operational,https://www.massdevice.com/report-ibm-watson-delivered-unsafe-and-inaccurate-cancer-recommendations/ ; https://incidentdatabase.ai/cite/225
+61,Recovery / Maintenance Action(s),Model retraining/revalidation; Major algorithm redesign; Legal/regulatory remediation,Service suspension/retirement; Model/subsystem replacement; Organizational/process change,https://www.massdevice.com/report-ibm-watson-delivered-unsafe-and-inaccurate-cancer-recommendations/ ; https://incidentdatabase.ai/cite/225
+61,Causal Location(s),Operational Process; Human/Organizational Governance,Data; Model; Human/Organizational Governance,https://www.massdevice.com/report-ibm-watson-delivered-unsafe-and-inaccurate-cancer-recommendations/ ; https://incidentdatabase.ai/cite/225
+62,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/639
+62,Risk Assessment,High,Moderate,https://incidentdatabase.ai/cite/639
+62,Amplification,N,Y,https://incidentdatabase.ai/cite/639
+62,Risk Domain,Information Integrity & Content Harm,Service Reliability & Operations,https://incidentdatabase.ai/cite/639
+62,Temporal Pattern,Recurring incidents,Single event,https://incidentdatabase.ai/cite/639
+62,Recovery / Maintenance Action(s),Affected-case review/redress; Organizational/process change; Legal/regulatory remediation,Affected-case review/redress; Downstream validation addition; Policy/governance change,https://incidentdatabase.ai/cite/639
+62,Causal Location(s),Data; Integration/Interface; Human/Organizational Governance,Model; Integration/Interface,https://incidentdatabase.ai/cite/639
+63,Failure Category,Mixed/Hybrid,Operational,https://incidentdatabase.ai/cite/1139
+63,Propagation Reach,P1 - Single downstream component/decision,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/1139
+63,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/1139
+63,Amplification,N,Y,https://incidentdatabase.ai/cite/1139
+63,Detection Signal,Contestation/appeal,Behavioral anomaly,https://incidentdatabase.ai/cite/1139
+63,Failure Mode(s),Hallucination/Confabulation; Safety Validation/Oversight Gap,Information Quality/Input Handling Failure,https://incidentdatabase.ai/cite/1139
+63,Recovery / Maintenance Action(s),Downstream validation addition; Organizational/process change; Legal/regulatory remediation,Affected-case review/redress; Downstream validation addition; Legal/regulatory remediation,https://incidentdatabase.ai/cite/1139
+64,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/432
+64,Transfer Mode,Signaled,Silent,https://incidentdatabase.ai/cite/432
+64,Detector,Operator,Organization,https://incidentdatabase.ai/cite/432
+64,Detection Signal,Explicit error/alarm,Consequence-based,https://incidentdatabase.ai/cite/432
+64,Impact Dimension(s),Service / operational; Financial / economic; Reputational / trust,Service / operational; Legal / regulatory,https://incidentdatabase.ai/cite/432
+64,Recovery / Maintenance Action(s),Software/pipeline repair; Interface/workflow/component modification,Architectural/platform redesign; Interface/workflow/component modification; Organizational/process change,https://incidentdatabase.ai/cite/432
+64,Causal Location(s),Model,Software/Implementation; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/432
+65,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/1085
+65,Detector,Affected user,Regulator/legal,https://incidentdatabase.ai/cite/1085
+65,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/1085
+65,Temporal Pattern,Single event,Recurring incidents,https://incidentdatabase.ai/cite/1085
+65,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/1085
+65,Impact Dimension(s),Security / abuse; Privacy / data protection; Legal / regulatory,Security / abuse; Privacy / data protection; Reputational / trust,https://incidentdatabase.ai/cite/1085
+65,Recovery / Maintenance Action(s),Monitoring/drift-detection addition; Interface/workflow/component modification,Organizational/process change; Policy/governance change; Legal/regulatory remediation,https://incidentdatabase.ai/cite/1085
+66,System Type,Generative/Conversational System,Composite/Multi-System AI,https://incidentdatabase.ai/cite/1090
+66,Detector,Affected user,Third party,https://incidentdatabase.ai/cite/1090
+66,Detection Signal,Behavioral anomaly,Contestation/appeal,https://incidentdatabase.ai/cite/1090
+66,Detection Timing,Delayed,Retrospective,https://incidentdatabase.ai/cite/1090
+66,Impact Dimension(s),Security / abuse; Psychological / social; Education / employment,Security / abuse; Psychological / social; Information integrity,https://incidentdatabase.ai/cite/1090
+66,Recovery / Maintenance Action(s),Monitoring/drift-detection addition; Interface/workflow/component modification,Monitoring/drift-detection addition; Policy/governance change; Legal/regulatory remediation,https://incidentdatabase.ai/cite/1090
+67,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/1091
+67,Industry,Social Media & Platforms,Technology & AI Services,https://incidentdatabase.ai/cite/1091
+67,Detection Signal,Pattern/statistical,Behavioral anomaly,https://incidentdatabase.ai/cite/1091
+67,Risk Domain,Information Integrity & Content Harm,Security & Malicious Use,https://incidentdatabase.ai/cite/1091
+67,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/1091
+67,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/1091
+67,Impact Dimension(s),Information integrity; Legal / regulatory; Reputational / trust,Information integrity; Security / abuse; Reputational / trust,https://incidentdatabase.ai/cite/1091
+67,Recovery / Maintenance Action(s),Monitoring/drift-detection addition; Policy/governance change,Local rollback/content correction; Monitoring/drift-detection addition; Policy/governance change,https://incidentdatabase.ai/cite/1091
+67,Causal Location(s),Adversarial Actor; Human/Organizational Governance,Adversarial Actor,https://incidentdatabase.ai/cite/1091
+68,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/1096
+68,System Type,Generative/Conversational System,Composite/Multi-System AI,https://incidentdatabase.ai/cite/1096
+68,Industry,Social Media & Platforms,Government & Public Services,https://incidentdatabase.ai/cite/1096
+68,Detection Signal,Pattern/statistical,Behavioral anomaly,https://incidentdatabase.ai/cite/1096
+68,Risk Domain,Information Integrity & Content Harm,Security & Malicious Use,https://incidentdatabase.ai/cite/1096
+68,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/1096
+68,Failure Mode(s),Identity/Impersonation/Deepfake,Disinformation/Manipulation,https://incidentdatabase.ai/cite/1096
+68,Impact Dimension(s),Information integrity; Legal / regulatory; Reputational / trust,Information integrity; Reputational / trust; Security / abuse,https://incidentdatabase.ai/cite/1096
+68,Recovery / Maintenance Action(s),Local rollback/content correction; Monitoring/drift-detection addition; Downstream validation addition,Local rollback/content correction; Monitoring/drift-detection addition,https://incidentdatabase.ai/cite/1096
+69,Transfer Mode,Silent,Signaled,https://incidentdatabase.ai/cite/1442
+69,Detector,IE,Organization,https://incidentdatabase.ai/cite/1442
+69,Detection Signal,IE,Behavioral anomaly,https://incidentdatabase.ai/cite/1442
+69,Recovery / Maintenance Action(s),Local rollback/content correction; Threshold/configuration adjustment; Organizational/process change,Software/pipeline repair; Local rollback/content correction; Organizational/process change,https://incidentdatabase.ai/cite/1442
+69,Causal Location(s),Software/Implementation; Operational Process; Human/Organizational Governance,Software/Implementation; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/1442
+70,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/149
+70,Detection Timing,Retrospective,Delayed,https://incidentdatabase.ai/cite/149
+70,Impact Dimension(s),Financial / economic; Service / operational; Education / employment,Financial / economic; Service / operational,https://incidentdatabase.ai/cite/149
+70,Recovery / Maintenance Action(s),Service suspension/retirement; Model/subsystem replacement; Organizational/process change,Service suspension/retirement; Organizational/process change; Affected-case review/redress,https://incidentdatabase.ai/cite/149
+70,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/149
+71,Failure Category,Adversarial,Operational,https://incidentdatabase.ai/cite/84
+71,Detector,Third party,Researcher/media,https://incidentdatabase.ai/cite/84
+71,Temporal Pattern,Recurring incidents,Ongoing pattern,https://incidentdatabase.ai/cite/84
+71,Failure Mode(s),Disinformation/Manipulation,Content Generation/Filtering Failure,https://incidentdatabase.ai/cite/84
+71,Impact Dimension(s),Information integrity; Physical safety / health; Legal / regulatory,Physical safety / health; Civil rights / fairness / access; Information integrity,https://incidentdatabase.ai/cite/84
+71,Recovery / Maintenance Action(s),Downstream validation addition; Interface/workflow/component modification,Model retraining/revalidation; Monitoring/drift-detection addition; Downstream validation addition,https://incidentdatabase.ai/cite/84
+71,Causal Location(s),Adversarial Actor; Integration/Interface,Model; Operational Process,https://incidentdatabase.ai/cite/84
+72,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/95
+72,Detector,Third party,Regulator/legal,https://incidentdatabase.ai/cite/95
+72,Detection Signal,Pattern/statistical,Contestation/appeal,https://incidentdatabase.ai/cite/95
+72,Impact Dimension(s),Education / employment; Civil rights / fairness / access; Privacy / data protection,Financial / economic; Service / operational; Civil rights / fairness / access,https://incidentdatabase.ai/cite/95
+72,Recovery / Maintenance Action(s),Service suspension/retirement; Policy/governance change,Model/subsystem replacement; Policy/governance change; Organizational/process change,https://incidentdatabase.ai/cite/95
+72,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/95
+73,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/143
+73,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/143
+73,Impact Dimension(s),Civil rights / fairness / access; Psychological / social; Reputational / trust,Physical safety / health; Civil rights / fairness / access; Psychological / social,https://incidentdatabase.ai/cite/143
+73,Recovery / Maintenance Action(s),Model retraining/revalidation; Monitoring/drift-detection addition; Policy/governance change,Data correction; Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/143
+74,Industry,Social Media & Platforms,Technology & AI Services,https://incidentdatabase.ai/cite/636
+74,Detection Signal,Pattern/statistical,Behavioral anomaly,https://incidentdatabase.ai/cite/636
+74,Impact Dimension(s),Privacy / data protection; Security / abuse; Psychological / social,Privacy / data protection; Psychological / social; Reputational / trust,https://incidentdatabase.ai/cite/636
+74,Recovery / Maintenance Action(s),Legal/regulatory remediation,Software/pipeline repair; Organizational/process change; Policy/governance change,https://incidentdatabase.ai/cite/636
+74,Causal Location(s),Data; Software/Implementation; Human/Organizational Governance,Software/Implementation; Human/Organizational Governance,https://incidentdatabase.ai/cite/636
+75,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/635
+75,Risk Domain,Information Integrity & Content Harm,Security & Malicious Use,https://incidentdatabase.ai/cite/635
+75,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/635
+75,Recovery / Maintenance Action(s),Local rollback/content correction; Monitoring/drift-detection addition; Organizational/process change,Local rollback/content correction; Monitoring/drift-detection addition; Policy/governance change,https://incidentdatabase.ai/cite/635
+76,Propagation Reach,P1 - Single downstream component/decision,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/631
+76,Amplification,N,Y,https://incidentdatabase.ai/cite/631
+76,Risk Domain,Information Integrity & Content Harm,"Social, Psychological & Trust",https://incidentdatabase.ai/cite/631
+76,Failure Mode(s),Design/Implementation Defect,Content Generation/Filtering Failure,https://incidentdatabase.ai/cite/631
+76,Impact Dimension(s),Service / operational; Reputational / trust; Psychological / social,Physical safety / health; Service / operational; Psychological / social,https://incidentdatabase.ai/cite/631
+76,Recovery / Maintenance Action(s),Software/pipeline repair; Fallback/human-escalation addition,Local rollback/content correction; Downstream validation addition; Organizational/process change,https://incidentdatabase.ai/cite/631
+76,Causal Location(s),Software/Implementation,Model; Operational Process,https://incidentdatabase.ai/cite/631
+77,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/644
+77,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/644
+77,Detector,Third party,Researcher/media,https://incidentdatabase.ai/cite/644
+78,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P1 - Single downstream component/decision,https://incidentdatabase.ai/cite/839
+78,Industry,Security & Law Enforcement,Technology & AI Services,https://incidentdatabase.ai/cite/839
+78,Amplification,Y,N,https://incidentdatabase.ai/cite/839
+78,Detector,Third party,Affected user,https://incidentdatabase.ai/cite/839
+78,Impact Dimension(s),Security / abuse; Privacy / data protection; Psychological / social,Security / abuse; Privacy / data protection; Financial / economic,https://incidentdatabase.ai/cite/839
+78,Recovery / Maintenance Action(s),Monitoring/drift-detection addition,Organizational/process change; Policy/governance change,https://incidentdatabase.ai/cite/839
+79,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/844
+79,Detection Signal,Contestation/appeal,Pattern/statistical,https://incidentdatabase.ai/cite/844
+79,Impact Dimension(s),Civil rights / fairness / access; Financial / economic; Legal / regulatory,Financial / economic; Service / operational; Civil rights / fairness / access,https://incidentdatabase.ai/cite/844
+80,Detector,Affected user,Researcher/media,https://incidentdatabase.ai/cite/849
+80,Detection Signal,Pattern/statistical,Contestation/appeal,https://incidentdatabase.ai/cite/849
+80,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/849
+80,Impact Dimension(s),Education / employment; Civil rights / fairness / access; Psychological / social,Civil rights / fairness / access; Education / employment,https://incidentdatabase.ai/cite/849
+80,Recovery / Maintenance Action(s),Data correction; Model retraining/revalidation; Local rollback/content correction,Model retraining/revalidation; Affected-case review/redress; Policy/governance change,https://incidentdatabase.ai/cite/849
+80,Causal Location(s),Data; Model; Human/Organizational Governance,Data; Model; Operational Process,https://incidentdatabase.ai/cite/849
+81,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/859
+81,Impact Dimension(s),Information integrity; Civil rights / fairness / access; Legal / regulatory,Information integrity; Civil rights / fairness / access; Reputational / trust,https://incidentdatabase.ai/cite/859
+81,Recovery / Maintenance Action(s),Model retraining/revalidation; Downstream validation addition; Policy/governance change,Data correction; Model retraining/revalidation; Downstream validation addition,https://incidentdatabase.ai/cite/859
+81,Causal Location(s),Data; Model; Integration/Interface,Data; Model; Operational Process,https://incidentdatabase.ai/cite/859
+82,Propagation Reach,P2 - Multi-component/workflow/system-wide,P1 - Single downstream component/decision,https://incidentdatabase.ai/cite/881
+82,Amplification,Y,N,https://incidentdatabase.ai/cite/881
+82,Impact Dimension(s),Service / operational; Physical safety / health,Financial / economic; Service / operational,https://incidentdatabase.ai/cite/881
+82,Recovery / Maintenance Action(s),Interface/workflow/component modification; Organizational/process change,Model retraining/revalidation; Software/pipeline repair; Downstream validation addition,https://incidentdatabase.ai/cite/881
+82,Causal Location(s),Integration/Interface; Software/Implementation,Model; Integration/Interface,https://incidentdatabase.ai/cite/881
+83,Risk Assessment,High,Moderate,https://incidentdatabase.ai/cite/882
+83,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/882
+83,Industry,Social Media & Platforms,Technology & AI Services,https://incidentdatabase.ai/cite/882
+83,Manifestation Pattern,Biased / disparate decision,Multiple - specify,https://incidentdatabase.ai/cite/882
+83,Risk Domain,"Fairness, Civil Rights & Access","Social, Psychological & Trust",https://incidentdatabase.ai/cite/882
+83,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/882
+83,Recovery / Maintenance Action(s),Service suspension/retirement; Policy/governance change; Organizational/process change,Local rollback/content correction; Service suspension/retirement; Downstream validation addition,https://incidentdatabase.ai/cite/882
+83,Causal Location(s),Data; Model; Human/Organizational Governance,Data; Model; Integration/Interface,https://incidentdatabase.ai/cite/882
+84,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/740
+84,Recovery Complexity,Severe,Very High,https://incidentdatabase.ai/cite/740
+84,Impact Dimension(s),Civil rights / fairness / access; Financial / economic; Privacy / data protection,Financial / economic; Service / operational; Civil rights / fairness / access,https://incidentdatabase.ai/cite/740
+85,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/830
+85,Manifestation Pattern,False negative / omission,Multiple - specify,https://incidentdatabase.ai/cite/830
+85,Detector,Affected user,Third party,https://incidentdatabase.ai/cite/830
+85,Detection Signal,Pattern/statistical,Contestation/appeal,https://incidentdatabase.ai/cite/830
+85,Failure Mode(s),Representation/Low-Resource Gap,Capability Limitation,https://incidentdatabase.ai/cite/830
+85,Recovery / Maintenance Action(s),Model/subsystem replacement; Downstream validation addition; Legal/regulatory remediation,Software/pipeline repair; Downstream validation addition; Interface/workflow/component modification,https://incidentdatabase.ai/cite/830
+85,Causal Location(s),Data; Model; Human/Organizational Governance,Model; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/830
+86,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/374
+86,Impact Dimension(s),Education / employment; Civil rights / fairness / access; Legal / regulatory,Civil rights / fairness / access; Reputational / trust; Education / employment,https://incidentdatabase.ai/cite/374
+87,Transfer Mode,Silent,Signaled,https://incidentdatabase.ai/cite/453
+87,Detection Signal,Behavioral anomaly,Contestation/appeal,https://incidentdatabase.ai/cite/453
+87,Recovery / Maintenance Action(s),Organizational/process change,Local rollback/content correction; Threshold/configuration adjustment; Organizational/process change,https://incidentdatabase.ai/cite/453
+87,Causal Location(s),Model; Human/Organizational Governance,Model; Operational Process,https://incidentdatabase.ai/cite/453
+88,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/123
+88,Propagation Reach,P2 - Multi-component/workflow/system-wide,P3 - Cross-organizational/ecosystem/public-scale,https://incidentdatabase.ai/cite/123
+88,Manifestation Pattern,Multiple - specify,Incorrect score / prediction / allocation,https://incidentdatabase.ai/cite/123
+88,Failure Mode(s),Prediction/Calibration Failure,Capability Limitation,https://incidentdatabase.ai/cite/123
+88,Impact Dimension(s),Physical safety / health; Service / operational; Reputational / trust,Physical safety / health,https://incidentdatabase.ai/cite/123
+88,Recovery / Maintenance Action(s),Model retraining/revalidation; Monitoring/drift-detection addition; Downstream validation addition,Model retraining/revalidation; Threshold/configuration adjustment; Downstream validation addition,https://incidentdatabase.ai/cite/123
+88,Causal Location(s),Data; Model; Human/Organizational Governance,Data; Model; Integration/Interface,https://incidentdatabase.ai/cite/123
+89,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/290
+89,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/290
+89,Failure Mode(s),Prediction/Calibration Failure,Capability Limitation,https://incidentdatabase.ai/cite/290
+89,Impact Dimension(s),Physical safety / health; Environmental; Service / operational,Physical safety / health; Reputational / trust,https://incidentdatabase.ai/cite/290
+89,Recovery / Maintenance Action(s),Model retraining/revalidation,Model retraining/revalidation; Monitoring/drift-detection addition; Downstream validation addition,https://incidentdatabase.ai/cite/290
+89,Causal Location(s),Data; Model; Human/Organizational Governance,Model; Integration/Interface,https://incidentdatabase.ai/cite/290
+90,System Type,Decision-Support/Optimization System,Composite/Multi-System AI,https://incidentdatabase.ai/cite/1046
+90,Failure Mode(s),Bias & Discrimination; Information Quality/Input Handling Failure,Bias & Discrimination; Capability Limitation,https://incidentdatabase.ai/cite/1046
+90,Impact Dimension(s),Civil rights / fairness / access; Financial / economic; Service / operational,Financial / economic; Civil rights / fairness / access; Security / abuse,https://incidentdatabase.ai/cite/1046
+90,Recovery / Maintenance Action(s),Model/subsystem replacement; Affected-case review/redress; Organizational/process change,Data correction; Model retraining/revalidation; Affected-case review/redress,https://incidentdatabase.ai/cite/1046
+90,Causal Location(s),Data; Model; Integration/Interface,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/1046
+91,Recovery Complexity,High,Very High,https://incidentdatabase.ai/cite/1433
+91,Manifestation Pattern,Human override / oversight failure,Service disruption / unavailability,https://incidentdatabase.ai/cite/1433
+91,Failure Mode(s),Design/Implementation Defect,Safety Validation/Oversight Gap,https://incidentdatabase.ai/cite/1433
+91,Impact Dimension(s),Service / operational; Financial / economic,Service / operational; Financial / economic; Reputational / trust,https://incidentdatabase.ai/cite/1433
+91,Recovery / Maintenance Action(s),Affected-case review/redress; Software/pipeline repair; Fallback/human-escalation addition,Software/pipeline repair; Fallback/human-escalation addition; Downstream validation addition,https://incidentdatabase.ai/cite/1433
+91,Causal Location(s),Software/Implementation; Human/Organizational Governance,Software/Implementation; Integration/Interface,https://incidentdatabase.ai/cite/1433
+92,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/1109
+92,System Type,Moderation/Filtering/Detection System,Surveillance/Identification System,https://incidentdatabase.ai/cite/1109
+92,Transfer Mode,Silent,Signaled,https://incidentdatabase.ai/cite/1109
+92,Recovery Evidence Status,Documented,Inferred,https://incidentdatabase.ai/cite/1109
+92,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/1109
+92,Failure Mode(s),Data/Domain Shift,Capability Limitation,https://incidentdatabase.ai/cite/1109
+92,Recovery / Maintenance Action(s),Threshold/configuration adjustment; Monitoring/drift-detection addition; Fallback/human-escalation addition,Threshold/configuration adjustment; Interface/workflow/component modification; Organizational/process change,https://incidentdatabase.ai/cite/1109
+92,Causal Location(s),Data; Model,Model; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/1109
+93,Industry,Social Media & Platforms,Technology & AI Services,https://incidentdatabase.ai/cite/1039
+93,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/1039
+93,Temporal Pattern,Single event,Recurring incidents,https://incidentdatabase.ai/cite/1039
+93,Recovery / Maintenance Action(s),Policy/governance change,Local rollback/content correction; Downstream validation addition; Fallback/human-escalation addition,https://incidentdatabase.ai/cite/1039
+93,Causal Location(s),Model; Integration/Interface; Human/Organizational Governance,Model; Integration/Interface,https://incidentdatabase.ai/cite/1039
+94,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/981
+94,Risk Domain,Information Integrity & Content Harm,"Social, Psychological & Trust",https://incidentdatabase.ai/cite/981
+94,Temporal Pattern,Recurring incidents,Single event,https://incidentdatabase.ai/cite/981
+94,Failure Mode(s),Representation/Low-Resource Gap,Information Quality/Input Handling Failure,https://incidentdatabase.ai/cite/981
+94,Impact Dimension(s),Information integrity; Psychological / social; Reputational / trust,Service / operational; Reputational / trust; Education / employment,https://incidentdatabase.ai/cite/981
+94,Recovery / Maintenance Action(s),Model retraining/revalidation,Model retraining/revalidation; Local rollback/content correction; Downstream validation addition,https://incidentdatabase.ai/cite/981
+94,Causal Location(s),Data; Model,Model,https://incidentdatabase.ai/cite/981
+95,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/934
+95,Propagation Reach,P3 - Cross-organizational/ecosystem/public-scale,P2 - Multi-component/workflow/system-wide,https://incidentdatabase.ai/cite/934
+95,Detector,Operator,Organization,https://incidentdatabase.ai/cite/934
+95,Detection Signal,Behavioral anomaly,Pattern/statistical,https://incidentdatabase.ai/cite/934
+95,Failure Mode(s),Data/Domain Shift,Information Quality/Input Handling Failure,https://incidentdatabase.ai/cite/934
+95,Impact Dimension(s),Information integrity; Service / operational; Reputational / trust,Financial / economic; Service / operational; Civil rights / fairness / access,https://incidentdatabase.ai/cite/934
+95,Recovery / Maintenance Action(s),Service suspension/retirement; Downstream validation addition,Service suspension/retirement; Downstream validation addition; Organizational/process change,https://incidentdatabase.ai/cite/934
+95,Causal Location(s),Data; Model; Human/Organizational Governance,Data; Model; Operational Process,https://incidentdatabase.ai/cite/934
+96,Risk Assessment,Severe,High,https://incidentdatabase.ai/cite/885
+96,Manifestation Pattern,Biased / disparate decision,Multiple - specify,https://incidentdatabase.ai/cite/885
+96,Recovery Evidence Status,Documented,Inferred,https://incidentdatabase.ai/cite/885
+96,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/885
+96,Impact Dimension(s),Civil rights / fairness / access; Psychological / social; Reputational / trust,Civil rights / fairness / access; Psychological / social; Privacy / data protection,https://incidentdatabase.ai/cite/885
+96,Recovery / Maintenance Action(s),Model retraining/revalidation; Policy/governance change; Fallback/human-escalation addition,Local rollback/content correction; Model retraining/revalidation; Policy/governance change,https://incidentdatabase.ai/cite/885
+96,Causal Location(s),Data; Model,Data; Model; Human/Organizational Governance,https://incidentdatabase.ai/cite/885
+97,Failure Category,Distributional,Operational,https://incidentdatabase.ai/cite/860
+97,Risk Assessment,High,Moderate,https://incidentdatabase.ai/cite/860
+97,System Type,Surveillance/Identification System,Moderation/Filtering/Detection System,https://incidentdatabase.ai/cite/860
+97,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/860
+97,Failure Mode(s),Representation/Low-Resource Gap,Capability Limitation,https://incidentdatabase.ai/cite/860
+97,Impact Dimension(s),Civil rights / fairness / access; Financial / economic; Legal / regulatory,Financial / economic; Legal / regulatory; Reputational / trust,https://incidentdatabase.ai/cite/860
+97,Recovery / Maintenance Action(s),Affected-case review/redress; Policy/governance change,Affected-case review/redress; Threshold/configuration adjustment; Organizational/process change,https://incidentdatabase.ai/cite/860
+97,Causal Location(s),Data; Model; Human/Organizational Governance,Model; Integration/Interface; Operational Process,https://incidentdatabase.ai/cite/860
+98,Risk Domain,Safety & Health,Information Integrity & Content Harm,https://incidentdatabase.ai/cite/827
+98,Temporal Pattern,Ongoing pattern,Recurring incidents,https://incidentdatabase.ai/cite/827
+98,Impact Dimension(s),Physical safety / health; Information integrity; Civil rights / fairness / access,Physical safety / health; Information integrity; Reputational / trust,https://incidentdatabase.ai/cite/827
+98,Recovery / Maintenance Action(s),Model retraining/revalidation; Downstream validation addition; Organizational/process change,Model retraining/revalidation; Downstream validation addition; Fallback/human-escalation addition,https://incidentdatabase.ai/cite/827
+99,Failure Category,Operational,Distributional,https://incidentdatabase.ai/cite/748
+99,Risk Domain,Information Integrity & Content Harm,Financial & Economic Harm,https://incidentdatabase.ai/cite/748
+99,Recovery Evidence Status,Documented,Inferred,https://incidentdatabase.ai/cite/748
+99,Failure Mode(s),Information Quality/Input Handling Failure,Hallucination/Confabulation,https://incidentdatabase.ai/cite/748
+99,Impact Dimension(s),Information integrity; Psychological / social; Reputational / trust,Financial / economic; Service / operational; Reputational / trust,https://incidentdatabase.ai/cite/748
+99,Recovery / Maintenance Action(s),Local rollback/content correction; Data correction,Downstream validation addition; Fallback/human-escalation addition; Local rollback/content correction,https://incidentdatabase.ai/cite/748
+99,Causal Location(s),Data; Integration/Interface,Model; Integration/Interface,https://incidentdatabase.ai/cite/748
+100,System Type,Decision-Support/Optimization System,Classification/Recognition System,https://incidentdatabase.ai/cite/1103
+100,Manifestation Pattern,Multiple - specify,Incorrect score / prediction / allocation,https://incidentdatabase.ai/cite/1103
+100,Risk Domain,Service Reliability & Operations,"Legal, Regulatory & Governance",https://incidentdatabase.ai/cite/1103
+100,Recovery Evidence Status,Inferred,Documented,https://incidentdatabase.ai/cite/1103
+100,Failure Mode(s),Hallucination/Confabulation; Information Quality/Input Handling Failure,Hallucination/Confabulation; Safety Validation/Oversight Gap,https://incidentdatabase.ai/cite/1103
+100,Impact Dimension(s),Service / operational; Civil rights / fairness / access; Reputational / trust,Service / operational; Financial / economic; Legal / regulatory,https://incidentdatabase.ai/cite/1103
+100,Recovery / Maintenance Action(s),Model/subsystem replacement; Affected-case review/redress; Policy/governance change,Affected-case review/redress; Downstream validation addition; Policy/governance change,https://incidentdatabase.ai/cite/1103
+100,Causal Location(s),Data; Model; Integration/Interface,Model; Software/Implementation; Human/Organizational Governance,https://incidentdatabase.ai/cite/1103
