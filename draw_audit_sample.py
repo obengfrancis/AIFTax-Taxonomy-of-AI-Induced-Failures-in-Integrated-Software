@@ -33,8 +33,6 @@ Design notes:
     labels, model outputs, provenance flags, and the sealed key; agreement therefore measures
     reproducibility under the instrument, not independent-human inter-rater reliability.
   - Multi-label comparisons used for provenance treat label order as irrelevant.
-  - The Markdown audit protocol should be committed before this script is run. The script
-    records its SHA-256 digest in the draw record when --protocol-file is available.
 """
 
 import argparse
