@@ -1,0 +1,31 @@
+AIFTax Independent LLM Annotation Task Prompt
+=================================================================================================
+Role:
+======
+Act as an independent annotator applying the provided AIFTax coding instrument to the supplied AI-incident records.
+
+Materials:
+==========
+You are provided with:
+1. the frozen AIFTax Coding Manual;
+2. the AIFTax annotation workbook, including the incident records, source links, controlled vocabularies, and required fields.
+
+Task
+======
+Using only the supplied coding manual, annotation workbook, and controlled source materials, independently annotate every incident in the workbook.
+
+For each incident:
+- Apply the definitions, decision rules, controlled vocabularies, and cross-field consistency rules specified in the AIFTax Coding Manual.
+- Complete every substantive annotation field.
+- For controlled fields, use only values permitted by the coding manual and workbook.
+- For multi-label fields, use the permitted labels and formatting defined by the instrument.
+- For narrative fields, provide concise, neutral, source-grounded descriptions consistent with the supplied evidence.
+- Do not introduce new taxonomy categories, modify field definitions, or revise the coding scheme.
+- Do not infer unsupported facts. When the available evidence is insufficient for a field, use the applicable IE/NA value according to the coding manual.
+- Preserve the workbook structure, field names, Case IDs, source links, and administrative information.
+
+Independence
+Perform the annotation independently. Do not consult another annotator's outputs, any adjudicated labels, or any previously completed annotation workbook.
+
+Output
+Return the completed AIFTax annotation workbook with all required fields populated. Do not reconcile disagreements with another annotator and do not alter the coding manual or taxonomy.

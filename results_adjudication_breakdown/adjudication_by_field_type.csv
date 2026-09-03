@@ -1,0 +1,7 @@
+Field Type (reported),Cells,LLM A,LLM B,Re-coded,% LLM A,% LLM B,% Re-coded
+Narrative,527,473,54,0,89.8,10.2,0.0
+Controlled multi-label,266,143,30,93,53.8,11.3,35.0
+Controlled nominal,213,146,67,0,68.5,31.5,0.0
+Controlled ordinal,79,35,41,3,44.3,51.9,3.8
+Source extraction,25,25,0,0,100.0,0.0,0.0
+Total,1110,822,192,96,74.1,17.3,8.6

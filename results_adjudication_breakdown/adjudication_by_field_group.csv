@@ -1,0 +1,10 @@
+Field Group,Cells,LLM A,LLM B,Re-coded,% LLM A,% LLM B,% Re-coded
+Causal Analysis,375,345,3,27,92.0,0.8,7.2
+Failure Classification,149,128,20,1,85.9,13.4,0.7
+Recovery and Maintenance,129,62,13,54,48.1,10.1,41.9
+Propagation Analysis,91,52,36,3,57.1,39.6,3.3
+Risk Assessment,79,18,61,0,22.8,77.2,0.0
+Core Classification,79,76,3,0,96.2,3.8,0.0
+Detection Analysis,74,53,21,0,71.6,28.4,0.0
+Impact Assessment,70,44,15,11,62.9,21.4,15.7
+Timing Analysis,64,44,20,0,68.8,31.2,0.0

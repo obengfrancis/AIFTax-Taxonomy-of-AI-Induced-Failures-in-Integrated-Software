@@ -1,0 +1,130 @@
+field,annotator_c,annotator_d,count
+System Type,Autonomous Control/Robotics System,Autonomous Control/Robotics System,7
+System Type,Decision-Support/Optimization System,Decision-Support/Optimization System,1
+System Type,Generative/Conversational System,Generative/Conversational System,25
+System Type,Moderation/Filtering/Detection System,Moderation/Filtering/Detection System,1
+System Type,Predictive/Scoring Model,Predictive/Scoring Model,4
+System Type,Recommendation/Ranking System,Recommendation/Ranking System,3
+System Type,Security/Threat Analysis System,Security/Threat Analysis System,1
+System Type,Surveillance/Identification System,Surveillance/Identification System,3
+Industry,Education & Workforce,Education & Workforce,8
+Industry,"Finance, Retail & Commerce","Finance, Retail & Commerce",10
+Industry,Government & Public Services,Government & Public Services,4
+Industry,Government & Public Services,Social Media & Platforms,2
+Industry,Healthcare & Medicine,Healthcare & Medicine,1
+Industry,Other,"Finance, Retail & Commerce",1
+Industry,Other,Government & Public Services,1
+Industry,Security & Law Enforcement,Security & Law Enforcement,4
+Industry,Social Media & Platforms,Social Media & Platforms,3
+Industry,Social Media & Platforms,Technology & AI Services,2
+Industry,Technology & AI Services,Technology & AI Services,2
+Industry,Transportation & Automotive,Transportation & Automotive,7
+Failure Category,Adversarial,Adversarial,19
+Failure Category,Distributional,Distributional,4
+Failure Category,Distributional,Operational,1
+Failure Category,IE,IE,1
+Failure Category,IE,Operational,4
+Failure Category,Operational,Distributional,1
+Failure Category,Operational,Operational,15
+Manifestation Pattern,Biased / disparate decision,Biased / disparate decision,3
+Manifestation Pattern,False negative / omission,False negative / omission,1
+Manifestation Pattern,Hallucinated / fabricated output,Hallucinated / fabricated output,4
+Manifestation Pattern,Human override / oversight failure,Multiple — specify,1
+Manifestation Pattern,Incorrect recommendation / ranking / amplification,Incorrect recommendation / ranking / amplification,1
+Manifestation Pattern,Incorrect score / prediction / allocation,Incorrect recommendation / ranking / amplification,1
+Manifestation Pattern,Incorrect score / prediction / allocation,Incorrect score / prediction / allocation,3
+Manifestation Pattern,Manipulated / deceptive content,Manipulated / deceptive content,18
+Manifestation Pattern,Misclassification / false positive,Misclassification / false positive,2
+Manifestation Pattern,Misclassification / false positive,Multiple — specify,1
+Manifestation Pattern,Multiple — specify,Multiple — specify,1
+Manifestation Pattern,Privacy intrusion / surveillance,Privacy intrusion / surveillance,1
+Manifestation Pattern,Unauthorized access / data exposure,Unauthorized access / data exposure,1
+Manifestation Pattern,Unsafe physical action or control,Unsafe physical action or control,7
+Boundary Transfer,Y,Y,45
+Transfer Mode,Silent,Silent,45
+Amplification,N,N,3
+Amplification,N,Y,1
+Amplification,Y,N,2
+Amplification,Y,Y,39
+Detection Timing,Delayed,Delayed,20
+Detection Timing,Delayed,Retrospective,5
+Detection Timing,Immediate,Delayed,1
+Detection Timing,Immediate,Immediate,6
+Detection Timing,Retrospective,Delayed,2
+Detection Timing,Retrospective,Retrospective,11
+Detector,Affected user,Affected user,17
+Detector,Affected user,Regulator/legal,1
+Detector,Organization,Organization,4
+Detector,Organization,Researcher/media,1
+Detector,Regulator/legal,Regulator/legal,7
+Detector,Researcher/media,Affected user,2
+Detector,Researcher/media,Researcher/media,3
+Detector,Third party,Affected user,3
+Detector,Third party,Regulator/legal,2
+Detector,Third party,Researcher/media,1
+Detector,Third party,Third party,4
+Detection Signal,Behavioral anomaly,Behavioral anomaly,2
+Detection Signal,Behavioral anomaly,Consequence-based,2
+Detection Signal,Consequence-based,Consequence-based,16
+Detection Signal,Consequence-based,Contestation/appeal,6
+Detection Signal,Consequence-based,Pattern/statistical,1
+Detection Signal,Contestation/appeal,Contestation/appeal,8
+Detection Signal,Contestation/appeal,Pattern/statistical,1
+Detection Signal,Pattern/statistical,Behavioral anomaly,1
+Detection Signal,Pattern/statistical,Consequence-based,1
+Detection Signal,Pattern/statistical,Contestation/appeal,1
+Detection Signal,Pattern/statistical,Pattern/statistical,6
+Risk Domain,"Fairness, Civil Rights & Access","Fairness, Civil Rights & Access",7
+Risk Domain,"Fairness, Civil Rights & Access","Legal, Regulatory & Governance",1
+Risk Domain,Financial & Economic Harm,Security & Malicious Use,2
+Risk Domain,Information Integrity & Content Harm,Information Integrity & Content Harm,3
+Risk Domain,"Legal, Regulatory & Governance","Legal, Regulatory & Governance",1
+Risk Domain,Privacy & Data Protection,"Fairness, Civil Rights & Access",1
+Risk Domain,Privacy & Data Protection,Privacy & Data Protection,1
+Risk Domain,Privacy & Data Protection,"Social, Psychological & Trust",2
+Risk Domain,Safety & Health,Safety & Health,11
+Risk Domain,Security & Malicious Use,Security & Malicious Use,8
+Risk Domain,Service Reliability & Operations,Service Reliability & Operations,1
+Risk Domain,"Social, Psychological & Trust",Information Integrity & Content Harm,3
+Risk Domain,"Social, Psychological & Trust","Social, Psychological & Trust",4
+Recovery Evidence Status,Documented,Documented,16
+Recovery Evidence Status,Documented,Inferred,1
+Recovery Evidence Status,IE,Documented,9
+Recovery Evidence Status,IE,IE,1
+Recovery Evidence Status,IE,Inferred,18
+Lifecycle Phase,Deployment/Rollout,Deployment/Rollout,2
+Lifecycle Phase,Post-deployment,Deployment/Rollout,1
+Lifecycle Phase,Post-deployment,Post-deployment,42
+Temporal Pattern,Ongoing pattern,Ongoing pattern,14
+Temporal Pattern,Ongoing pattern,Single event,1
+Temporal Pattern,Recurring incidents,Ongoing pattern,2
+Temporal Pattern,Recurring incidents,Recurring incidents,8
+Temporal Pattern,Recurring incidents,Single event,2
+Temporal Pattern,Single event,Ongoing pattern,1
+Temporal Pattern,Single event,Recurring incidents,1
+Temporal Pattern,Single event,Single event,16
+Propagation Reach,P1,P1,3
+Propagation Reach,P2,P1,2
+Propagation Reach,P2,P2,9
+Propagation Reach,P2,P3,5
+Propagation Reach,P3,P1,1
+Propagation Reach,P3,P2,1
+Propagation Reach,P3,P3,24
+Risk Assessment,Critical,Critical,5
+Risk Assessment,High,High,28
+Risk Assessment,High,Severe,3
+Risk Assessment,Moderate,Moderate,4
+Risk Assessment,Severe,High,1
+Risk Assessment,Severe,Severe,4
+Recovery Complexity,High,High,5
+Recovery Complexity,High,Moderate,2
+Recovery Complexity,High,Severe,1
+Recovery Complexity,IE,High,8
+Recovery Complexity,IE,IE,1
+Recovery Complexity,IE,Low,1
+Recovery Complexity,IE,Moderate,15
+Recovery Complexity,IE,Severe,3
+Recovery Complexity,Moderate,High,3
+Recovery Complexity,Moderate,Moderate,4
+Recovery Complexity,Severe,High,1
+Recovery Complexity,Severe,Very High,1

@@ -1,0 +1,5 @@
+Failure Category,Very High,Severe,High,Moderate,Low
+Operational,8,9,16,12,3
+Distributional,7,14,9,2,1
+Adversarial,3,1,8,2,0
+Mixed/Hybrid,3,2,0,0,0

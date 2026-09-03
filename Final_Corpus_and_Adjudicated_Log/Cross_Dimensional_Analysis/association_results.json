@@ -1,0 +1,39 @@
+{
+  "input": "AIFTax_Final_Adjudicated_Dataset.xlsx",
+  "sheet_name": "Final Corpus",
+  "record_count": 100,
+  "results": [
+    {
+      "n": 100,
+      "chi_square": 15.937297313603935,
+      "degrees_freedom": 12,
+      "asymptotic_p": 0.19412487121124086,
+      "cramers_v": 0.23048714579923926,
+      "bias_corrected_cramers_v": 0.11453293346826866,
+      "expected_cells_below_5": 13,
+      "total_cells": 20,
+      "percent_expected_cells_below_5": 65.0,
+      "minimum_expected_count": 0.1,
+      "analysis": "Failure Category \u00d7 Risk Assessment",
+      "monte_carlo_p": 0.20115899420502897,
+      "monte_carlo_simulations": 200000,
+      "seed": 20260731
+    },
+    {
+      "n": 100,
+      "chi_square": 21.929234636215156,
+      "degrees_freedom": 12,
+      "asymptotic_p": 0.03832062036818931,
+      "cramers_v": 0.27036539865038917,
+      "bias_corrected_cramers_v": 0.18361665881755646,
+      "expected_cells_below_5": 12,
+      "total_cells": 20,
+      "percent_expected_cells_below_5": 60.0,
+      "minimum_expected_count": 0.2,
+      "analysis": "Failure Category \u00d7 Recovery Complexity",
+      "monte_carlo_p": 0.039889800550997244,
+      "monte_carlo_simulations": 200000,
+      "seed": 20260732
+    }
+  ]
+}

@@ -1,0 +1,2874 @@
+{
+  "source_files": {
+    "annotator_c": "AIFTax_Annotator_C_45_Cases_Completed.xlsx",
+    "annotator_d": "AIFTax_Annotator_D_45_Cases_Completed.xlsx"
+  },
+  "paired_case_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+  ],
+  "source_link_mismatch_case_ids": [],
+  "method_notes": {
+    "denominator": "All cases independently annotated by both C and D; no case is dropped on the basis of an annotation outcome.",
+    "unweighted_kappa": "IE/NA retained as explicit categories.",
+    "ordinal_weighted_kappa": "Quadratic-weighted kappa calculated only when both annotations have a valid ordinal value; IE/NA/blank excluded.",
+    "multilabel": "Exact set agreement, mean Jaccard, mean set F1, and macro one-vs-rest labelwise Cohen kappa.",
+    "free_text": "No content kappa; only coded-vs-IE/NA-vs-blank status agreement."
+  },
+  "heldout": {
+    "name": "Held-out set",
+    "n_cases": 45,
+    "field_agreement": [
+      {
+        "field": "System Type",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 1.0,
+        "cohen_kappa": 1.0,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Industry",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.8666666666666667,
+        "cohen_kappa": 0.843205574912892,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Failure Category",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.9555555555555556,
+        "cohen_kappa": 0.9248747913188651,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Manifestation Pattern",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.9333333333333333,
+        "cohen_kappa": 0.9156777014366021,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Boundary Transfer",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 1.0,
+        "cohen_kappa": 1.0,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Transfer Mode",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 1.0,
+        "cohen_kappa": 1.0,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Amplification",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.9555555555555556,
+        "cohen_kappa": 0.7256097560975613,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Detection Timing",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.8,
+        "cohen_kappa": 0.6672144617912902,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Detector",
+        "n_paired": 45,
+        "annotator_c_ie_na": 1,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.7555555555555555,
+        "cohen_kappa": 0.6771037181996086,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Detection Signal",
+        "n_paired": 45,
+        "annotator_c_ie_na": 1,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.6888888888888889,
+        "cohen_kappa": 0.5447976878612717,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Risk Domain",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.8222222222222222,
+        "cohen_kappa": 0.7873597164796219,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Recovery Evidence Status",
+        "n_paired": 45,
+        "annotator_c_ie_na": 28,
+        "annotator_d_ie_na": 1,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.37777777777777777,
+        "cohen_kappa": 0.1984732824427481,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Lifecycle Phase",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.9777777777777777,
+        "cohen_kappa": 0.7887323943661968,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Temporal Pattern",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "nominal",
+        "exact_agreement": 0.8444444444444444,
+        "cohen_kappa": 0.7613636363636362,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Propagation Reach",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "ordinal",
+        "exact_agreement": 0.8,
+        "cohen_kappa": 0.6294602012808784,
+        "quadratic_weighted_kappa": 0.7036223929747529,
+        "n_ordinal_pairs": 45,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Risk Assessment",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "ordinal",
+        "exact_agreement": 0.9111111111111111,
+        "cohen_kappa": 0.8285714285714285,
+        "quadratic_weighted_kappa": 0.9254349627174814,
+        "n_ordinal_pairs": 45,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Recovery Complexity",
+        "n_paired": 45,
+        "annotator_c_ie_na": 28,
+        "annotator_d_ie_na": 1,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "ordinal",
+        "exact_agreement": 0.2222222222222222,
+        "cohen_kappa": 0.07678780773739739,
+        "quadratic_weighted_kappa": 0.5612903225806452,
+        "n_ordinal_pairs": 17,
+        "mean_jaccard": null,
+        "mean_set_f1": null,
+        "macro_labelwise_kappa": null,
+        "n_labelwise_kappas": null
+      },
+      {
+        "field": "Failure Mode(s)",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "multilabel",
+        "exact_agreement": 0.8888888888888888,
+        "cohen_kappa": null,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": 0.8888888888888888,
+        "mean_set_f1": 0.8888888888888888,
+        "macro_labelwise_kappa": 0.8239888799010207,
+        "n_labelwise_kappas": 11
+      },
+      {
+        "field": "Impact Dimension(s)",
+        "n_paired": 45,
+        "annotator_c_ie_na": 0,
+        "annotator_d_ie_na": 0,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "multilabel",
+        "exact_agreement": 0.6222222222222222,
+        "cohen_kappa": null,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": 0.8333333333333334,
+        "mean_set_f1": 0.8918518518518519,
+        "macro_labelwise_kappa": 0.8612668710893469,
+        "n_labelwise_kappas": 11
+      },
+      {
+        "field": "Recovery / Maintenance Action(s)",
+        "n_paired": 45,
+        "annotator_c_ie_na": 28,
+        "annotator_d_ie_na": 1,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "multilabel",
+        "exact_agreement": 0.022222222222222223,
+        "cohen_kappa": null,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": 0.20555555555555555,
+        "mean_set_f1": 0.2637037037037037,
+        "macro_labelwise_kappa": 0.1914966406001939,
+        "n_labelwise_kappas": 13
+      },
+      {
+        "field": "Causal Location(s)",
+        "n_paired": 45,
+        "annotator_c_ie_na": 1,
+        "annotator_d_ie_na": 1,
+        "annotator_c_blank": 0,
+        "annotator_d_blank": 0,
+        "type": "multilabel",
+        "exact_agreement": 0.5555555555555556,
+        "cohen_kappa": null,
+        "quadratic_weighted_kappa": null,
+        "n_ordinal_pairs": null,
+        "mean_jaccard": 0.7722222222222223,
+        "mean_set_f1": 0.8377777777777777,
+        "macro_labelwise_kappa": 0.6040926672712836,
+        "n_labelwise_kappas": 7
+      }
+    ],
+    "missingness_agreement": [
+      {
+        "field": "Date",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Entity",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "System Type",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Title",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Industry",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Application Domain",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Failure Category",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Failure Mode(s)",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Manifestation Pattern",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Manifestation — Brief Description",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Propagation Reach",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Boundary Transfer",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Transfer Mode",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Amplification",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Propagation Chain",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Detection Timing",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Detector",
+        "n_paired": 45,
+        "c_ie_na": 1,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 0.9777777777777777,
+        "status_kappa": 0.0
+      },
+      {
+        "field": "Detection Signal",
+        "n_paired": 45,
+        "c_ie_na": 1,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 0.9777777777777777,
+        "status_kappa": 0.0
+      },
+      {
+        "field": "Impact Dimension(s)",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Risk Assessment",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Risk Domain",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Risk Subdomain",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Recovery Complexity",
+        "n_paired": 45,
+        "c_ie_na": 28,
+        "d_ie_na": 1,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 0.4,
+        "status_kappa": 0.0272217774219376
+      },
+      {
+        "field": "Recovery Evidence Status",
+        "n_paired": 45,
+        "c_ie_na": 28,
+        "d_ie_na": 1,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 0.4,
+        "status_kappa": 0.0272217774219376
+      },
+      {
+        "field": "Recovery / Maintenance Action(s)",
+        "n_paired": 45,
+        "c_ie_na": 28,
+        "d_ie_na": 1,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 0.4,
+        "status_kappa": 0.0272217774219376
+      },
+      {
+        "field": "Causal Location(s)",
+        "n_paired": 45,
+        "c_ie_na": 1,
+        "d_ie_na": 1,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Causal Mechanism",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 1,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 0.9777777777777777,
+        "status_kappa": 0.0
+      },
+      {
+        "field": "Missing Safeguard",
+        "n_paired": 45,
+        "c_ie_na": 24,
+        "d_ie_na": 1,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 0.4888888888888889,
+        "status_kappa": 0.038997214484679646
+      },
+      {
+        "field": "Root Cause Description",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 1,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 0.9777777777777777,
+        "status_kappa": 0.0
+      },
+      {
+        "field": "Lifecycle Phase",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Temporal Pattern",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      },
+      {
+        "field": "Timing / Period",
+        "n_paired": 45,
+        "c_ie_na": 0,
+        "d_ie_na": 0,
+        "c_blank": 0,
+        "d_blank": 0,
+        "status_exact_agreement": 1.0,
+        "status_kappa": 1.0
+      }
+    ],
+    "disagreements": [
+      {
+        "case_id": "1",
+        "field": "Amplification",
+        "annotator_c": "Y",
+        "annotator_d": "N"
+      },
+      {
+        "case_id": "1",
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P1"
+      },
+      {
+        "case_id": "1",
+        "field": "Recovery Complexity",
+        "annotator_c": "Moderate",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "1",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Legal / regulatory; Physical safety / health; Service / operational",
+        "annotator_d": "Physical safety / health; Service / operational"
+      },
+      {
+        "case_id": "1",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Software/pipeline repair",
+        "annotator_d": "Downstream validation addition; Software/pipeline repair"
+      },
+      {
+        "case_id": "1",
+        "field": "Causal Location(s)",
+        "annotator_c": "Software/Implementation",
+        "annotator_d": "Model; Software/Implementation"
+      },
+      {
+        "case_id": "2",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "2",
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P1"
+      },
+      {
+        "case_id": "2",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "2",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Legal / regulatory; Physical safety / health",
+        "annotator_d": "Physical safety / health"
+      },
+      {
+        "case_id": "2",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Downstream validation addition; Fallback/human-escalation addition"
+      },
+      {
+        "case_id": "2",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model",
+        "annotator_d": "Model; Operational Process"
+      },
+      {
+        "case_id": "3",
+        "field": "Detector",
+        "annotator_c": "Third party",
+        "annotator_d": "Regulator/legal"
+      },
+      {
+        "case_id": "3",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "3",
+        "field": "Risk Assessment",
+        "annotator_c": "High",
+        "annotator_d": "Severe"
+      },
+      {
+        "case_id": "3",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "3",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Downstream validation addition; Model retraining/revalidation; Policy/governance change"
+      },
+      {
+        "case_id": "3",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model",
+        "annotator_d": "Data; Model"
+      },
+      {
+        "case_id": "4",
+        "field": "Industry",
+        "annotator_c": "Other",
+        "annotator_d": "Finance, Retail & Commerce"
+      },
+      {
+        "case_id": "4",
+        "field": "Detection Timing",
+        "annotator_c": "Immediate",
+        "annotator_d": "Delayed"
+      },
+      {
+        "case_id": "4",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "4",
+        "field": "Temporal Pattern",
+        "annotator_c": "Recurring incidents",
+        "annotator_d": "Ongoing pattern"
+      },
+      {
+        "case_id": "4",
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P3"
+      },
+      {
+        "case_id": "4",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "4",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Policy/governance change"
+      },
+      {
+        "case_id": "5",
+        "field": "Propagation Reach",
+        "annotator_c": "P3",
+        "annotator_d": "P1"
+      },
+      {
+        "case_id": "5",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Financial / economic; Physical safety / health; Service / operational",
+        "annotator_d": "Physical safety / health; Service / operational"
+      },
+      {
+        "case_id": "6",
+        "field": "Failure Category",
+        "annotator_c": "Operational",
+        "annotator_d": "Distributional"
+      },
+      {
+        "case_id": "6",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "Documented",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "6",
+        "field": "Recovery Complexity",
+        "annotator_c": "Moderate",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "6",
+        "field": "Failure Mode(s)",
+        "annotator_c": "Capability Limitation",
+        "annotator_d": "Bias & Discrimination"
+      },
+      {
+        "case_id": "6",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Affected-case review/redress; Legal/regulatory remediation",
+        "annotator_d": "Affected-case review/redress; Downstream validation addition; Fallback/human-escalation addition"
+      },
+      {
+        "case_id": "6",
+        "field": "Causal Location(s)",
+        "annotator_c": "Integration/Interface; Model; Operational Process",
+        "annotator_d": "Model; Operational Process"
+      },
+      {
+        "case_id": "7",
+        "field": "Amplification",
+        "annotator_c": "N",
+        "annotator_d": "Y"
+      },
+      {
+        "case_id": "7",
+        "field": "Detection Signal",
+        "annotator_c": "Behavioral anomaly",
+        "annotator_d": "Consequence-based"
+      },
+      {
+        "case_id": "7",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "7",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "7",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Downstream validation addition; Fallback/human-escalation addition; Software/pipeline repair"
+      },
+      {
+        "case_id": "7",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model",
+        "annotator_d": "Model; Software/Implementation"
+      },
+      {
+        "case_id": "8",
+        "field": "Detector",
+        "annotator_c": "Affected user",
+        "annotator_d": "Regulator/legal"
+      },
+      {
+        "case_id": "8",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "8",
+        "field": "Risk Assessment",
+        "annotator_c": "High",
+        "annotator_d": "Severe"
+      },
+      {
+        "case_id": "8",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "8",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Downstream validation addition; Model retraining/revalidation"
+      },
+      {
+        "case_id": "8",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model",
+        "annotator_d": "Data; Human/Organizational Governance; Model"
+      },
+      {
+        "case_id": "9",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "9",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "9",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Organizational/process change"
+      },
+      {
+        "case_id": "10",
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Contestation/appeal"
+      },
+      {
+        "case_id": "10",
+        "field": "Risk Domain",
+        "annotator_c": "Social, Psychological & Trust",
+        "annotator_d": "Information Integrity & Content Harm"
+      },
+      {
+        "case_id": "10",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "10",
+        "field": "Temporal Pattern",
+        "annotator_c": "Recurring incidents",
+        "annotator_d": "Single event"
+      },
+      {
+        "case_id": "10",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "10",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Organizational/process change"
+      },
+      {
+        "case_id": "11",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "11",
+        "field": "Temporal Pattern",
+        "annotator_c": "Recurring incidents",
+        "annotator_d": "Ongoing pattern"
+      },
+      {
+        "case_id": "11",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "11",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Local rollback/content correction; Monitoring/drift-detection addition"
+      },
+      {
+        "case_id": "12",
+        "field": "Detection Signal",
+        "annotator_c": "Pattern/statistical",
+        "annotator_d": "Behavioral anomaly"
+      },
+      {
+        "case_id": "12",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "12",
+        "field": "Lifecycle Phase",
+        "annotator_c": "Post-deployment",
+        "annotator_d": "Deployment/Rollout"
+      },
+      {
+        "case_id": "12",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "12",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Information integrity; Legal / regulatory; Service / operational",
+        "annotator_d": "Information integrity; Legal / regulatory; Reputational / trust"
+      },
+      {
+        "case_id": "12",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Downstream validation addition; Local rollback/content correction; Organizational/process change"
+      },
+      {
+        "case_id": "12",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model",
+        "annotator_d": "Model; Operational Process"
+      },
+      {
+        "case_id": "13",
+        "field": "Manifestation Pattern",
+        "annotator_c": "Incorrect score / prediction / allocation",
+        "annotator_d": "Incorrect recommendation / ranking / amplification"
+      },
+      {
+        "case_id": "13",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "13",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Severe"
+      },
+      {
+        "case_id": "13",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Interface/workflow/component modification; Organizational/process change; Policy/governance change"
+      },
+      {
+        "case_id": "13",
+        "field": "Causal Location(s)",
+        "annotator_c": "Human/Organizational Governance; Model",
+        "annotator_d": "Human/Organizational Governance; Model; Operational Process"
+      },
+      {
+        "case_id": "14",
+        "field": "Recovery Complexity",
+        "annotator_c": "Severe",
+        "annotator_d": "Very High"
+      },
+      {
+        "case_id": "14",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Legal/regulatory remediation; Service suspension/retirement",
+        "annotator_d": "Legal/regulatory remediation; Service suspension/retirement; Software/pipeline repair"
+      },
+      {
+        "case_id": "14",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model; Software/Implementation",
+        "annotator_d": "Model; Operational Process; Software/Implementation"
+      },
+      {
+        "case_id": "15",
+        "field": "Detector",
+        "annotator_c": "Third party",
+        "annotator_d": "Affected user"
+      },
+      {
+        "case_id": "15",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Financial / economic; Psychological / social; Security / abuse",
+        "annotator_d": "Financial / economic; Security / abuse"
+      },
+      {
+        "case_id": "15",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Legal/regulatory remediation",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation"
+      },
+      {
+        "case_id": "16",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "16",
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P3"
+      },
+      {
+        "case_id": "16",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Severe"
+      },
+      {
+        "case_id": "16",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Civil rights / fairness / access; Physical safety / health; Service / operational",
+        "annotator_d": "Civil rights / fairness / access; Legal / regulatory; Physical safety / health"
+      },
+      {
+        "case_id": "16",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Model retraining/revalidation; Policy/governance change; Threshold/configuration adjustment"
+      },
+      {
+        "case_id": "17",
+        "field": "Industry",
+        "annotator_c": "Social Media & Platforms",
+        "annotator_d": "Technology & AI Services"
+      },
+      {
+        "case_id": "17",
+        "field": "Detector",
+        "annotator_c": "IE",
+        "annotator_d": "Affected user"
+      },
+      {
+        "case_id": "17",
+        "field": "Detection Signal",
+        "annotator_c": "IE",
+        "annotator_d": "Contestation/appeal"
+      },
+      {
+        "case_id": "17",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "17",
+        "field": "Temporal Pattern",
+        "annotator_c": "Single event",
+        "annotator_d": "Recurring incidents"
+      },
+      {
+        "case_id": "17",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "17",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Legal/regulatory remediation; Local rollback/content correction; Service suspension/retirement"
+      },
+      {
+        "case_id": "18",
+        "field": "Detection Timing",
+        "annotator_c": "Retrospective",
+        "annotator_d": "Delayed"
+      },
+      {
+        "case_id": "18",
+        "field": "Detector",
+        "annotator_c": "Researcher/media",
+        "annotator_d": "Affected user"
+      },
+      {
+        "case_id": "18",
+        "field": "Detection Signal",
+        "annotator_c": "Pattern/statistical",
+        "annotator_d": "Consequence-based"
+      },
+      {
+        "case_id": "18",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "18",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "18",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Downstream validation addition; Monitoring/drift-detection addition; Policy/governance change"
+      },
+      {
+        "case_id": "19",
+        "field": "Industry",
+        "annotator_c": "Government & Public Services",
+        "annotator_d": "Social Media & Platforms"
+      },
+      {
+        "case_id": "19",
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Contestation/appeal"
+      },
+      {
+        "case_id": "19",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "19",
+        "field": "Temporal Pattern",
+        "annotator_c": "Single event",
+        "annotator_d": "Ongoing pattern"
+      },
+      {
+        "case_id": "19",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "19",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Local rollback/content correction"
+      },
+      {
+        "case_id": "20",
+        "field": "Detection Signal",
+        "annotator_c": "Pattern/statistical",
+        "annotator_d": "Contestation/appeal"
+      },
+      {
+        "case_id": "20",
+        "field": "Risk Domain",
+        "annotator_c": "Privacy & Data Protection",
+        "annotator_d": "Fairness, Civil Rights & Access"
+      },
+      {
+        "case_id": "20",
+        "field": "Temporal Pattern",
+        "annotator_c": "Ongoing pattern",
+        "annotator_d": "Single event"
+      },
+      {
+        "case_id": "20",
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P3"
+      },
+      {
+        "case_id": "20",
+        "field": "Risk Assessment",
+        "annotator_c": "Severe",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "20",
+        "field": "Recovery Complexity",
+        "annotator_c": "Severe",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "20",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Legal / regulatory; Privacy / data protection; Service / operational",
+        "annotator_d": "Civil rights / fairness / access; Legal / regulatory; Privacy / data protection"
+      },
+      {
+        "case_id": "20",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Organizational/process change; Policy/governance change; Service suspension/retirement",
+        "annotator_d": "Downstream validation addition; Organizational/process change; Policy/governance change"
+      },
+      {
+        "case_id": "20",
+        "field": "Causal Location(s)",
+        "annotator_c": "Human/Organizational Governance; Integration/Interface; Operational Process",
+        "annotator_d": "Human/Organizational Governance; Model; Operational Process"
+      },
+      {
+        "case_id": "21",
+        "field": "Failure Category",
+        "annotator_c": "Distributional",
+        "annotator_d": "Operational"
+      },
+      {
+        "case_id": "21",
+        "field": "Detector",
+        "annotator_c": "Organization",
+        "annotator_d": "Researcher/media"
+      },
+      {
+        "case_id": "21",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "21",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Severe"
+      },
+      {
+        "case_id": "21",
+        "field": "Failure Mode(s)",
+        "annotator_c": "Prediction/Calibration Failure",
+        "annotator_d": "Objective/Metric Misalignment"
+      },
+      {
+        "case_id": "21",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Model retraining/revalidation; Policy/governance change"
+      },
+      {
+        "case_id": "21",
+        "field": "Causal Location(s)",
+        "annotator_c": "Human/Organizational Governance; Integration/Interface; Model",
+        "annotator_d": "Data; Human/Organizational Governance; Model"
+      },
+      {
+        "case_id": "22",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "22",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "22",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Privacy / data protection; Reputational / trust; Security / abuse",
+        "annotator_d": "Privacy / data protection; Reputational / trust; Service / operational"
+      },
+      {
+        "case_id": "22",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Interface/workflow/component modification; Policy/governance change; Threshold/configuration adjustment"
+      },
+      {
+        "case_id": "22",
+        "field": "Causal Location(s)",
+        "annotator_c": "Integration/Interface; Software/Implementation",
+        "annotator_d": "Human/Organizational Governance; Integration/Interface; Software/Implementation"
+      },
+      {
+        "case_id": "23",
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Contestation/appeal"
+      },
+      {
+        "case_id": "23",
+        "field": "Risk Domain",
+        "annotator_c": "Privacy & Data Protection",
+        "annotator_d": "Social, Psychological & Trust"
+      },
+      {
+        "case_id": "23",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "23",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "23",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Privacy / data protection; Psychological / social; Reputational / trust",
+        "annotator_d": "Legal / regulatory; Privacy / data protection; Psychological / social"
+      },
+      {
+        "case_id": "23",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Policy/governance change"
+      },
+      {
+        "case_id": "24",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "24",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "24",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Physical safety / health",
+        "annotator_d": "Physical safety / health; Service / operational"
+      },
+      {
+        "case_id": "24",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Downstream validation addition; Software/pipeline repair"
+      },
+      {
+        "case_id": "24",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model",
+        "annotator_d": "Model; Software/Implementation"
+      },
+      {
+        "case_id": "25",
+        "field": "Detection Timing",
+        "annotator_c": "Delayed",
+        "annotator_d": "Retrospective"
+      },
+      {
+        "case_id": "25",
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P3"
+      },
+      {
+        "case_id": "25",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Affected-case review/redress; Legal/regulatory remediation",
+        "annotator_d": "Affected-case review/redress; Fallback/human-escalation addition; Legal/regulatory remediation"
+      },
+      {
+        "case_id": "25",
+        "field": "Causal Location(s)",
+        "annotator_c": "Integration/Interface; Model; Operational Process",
+        "annotator_d": "Model; Operational Process"
+      },
+      {
+        "case_id": "26",
+        "field": "Detector",
+        "annotator_c": "Third party",
+        "annotator_d": "Regulator/legal"
+      },
+      {
+        "case_id": "26",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "26",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "26",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Legal/regulatory remediation; Model retraining/revalidation; Policy/governance change"
+      },
+      {
+        "case_id": "26",
+        "field": "Causal Location(s)",
+        "annotator_c": "Data; Model",
+        "annotator_d": "Data; Human/Organizational Governance; Model"
+      },
+      {
+        "case_id": "27",
+        "field": "Manifestation Pattern",
+        "annotator_c": "Misclassification / false positive",
+        "annotator_d": "Multiple — specify"
+      },
+      {
+        "case_id": "27",
+        "field": "Risk Domain",
+        "annotator_c": "Fairness, Civil Rights & Access",
+        "annotator_d": "Legal, Regulatory & Governance"
+      },
+      {
+        "case_id": "27",
+        "field": "Recovery Complexity",
+        "annotator_c": "High",
+        "annotator_d": "Severe"
+      },
+      {
+        "case_id": "27",
+        "field": "Failure Mode(s)",
+        "annotator_c": "Safety Validation/Oversight Gap",
+        "annotator_d": "Capability Limitation"
+      },
+      {
+        "case_id": "27",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Affected-case review/redress; Legal/regulatory remediation",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Service suspension/retirement"
+      },
+      {
+        "case_id": "28",
+        "field": "Industry",
+        "annotator_c": "Social Media & Platforms",
+        "annotator_d": "Technology & AI Services"
+      },
+      {
+        "case_id": "28",
+        "field": "Detector",
+        "annotator_c": "Researcher/media",
+        "annotator_d": "Affected user"
+      },
+      {
+        "case_id": "28",
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Contestation/appeal"
+      },
+      {
+        "case_id": "28",
+        "field": "Risk Domain",
+        "annotator_c": "Social, Psychological & Trust",
+        "annotator_d": "Information Integrity & Content Harm"
+      },
+      {
+        "case_id": "28",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "28",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Low"
+      },
+      {
+        "case_id": "28",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Information integrity; Reputational / trust",
+        "annotator_d": "Information integrity; Legal / regulatory; Reputational / trust"
+      },
+      {
+        "case_id": "28",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Downstream validation addition; Local rollback/content correction"
+      },
+      {
+        "case_id": "28",
+        "field": "Causal Location(s)",
+        "annotator_c": "Integration/Interface; Model",
+        "annotator_d": "Model; Operational Process; Software/Implementation"
+      },
+      {
+        "case_id": "29",
+        "field": "Manifestation Pattern",
+        "annotator_c": "Human override / oversight failure",
+        "annotator_d": "Multiple — specify"
+      },
+      {
+        "case_id": "29",
+        "field": "Detection Timing",
+        "annotator_c": "Delayed",
+        "annotator_d": "Retrospective"
+      },
+      {
+        "case_id": "29",
+        "field": "Detector",
+        "annotator_c": "Third party",
+        "annotator_d": "Affected user"
+      },
+      {
+        "case_id": "29",
+        "field": "Detection Signal",
+        "annotator_c": "Behavioral anomaly",
+        "annotator_d": "Consequence-based"
+      },
+      {
+        "case_id": "29",
+        "field": "Failure Mode(s)",
+        "annotator_c": "Content Generation/Filtering Failure",
+        "annotator_d": "Safety Validation/Oversight Gap"
+      },
+      {
+        "case_id": "29",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Fallback/human-escalation addition; Monitoring/drift-detection addition; Policy/governance change",
+        "annotator_d": "Downstream validation addition; Fallback/human-escalation addition; Policy/governance change"
+      },
+      {
+        "case_id": "30",
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Contestation/appeal"
+      },
+      {
+        "case_id": "30",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Legal/regulatory remediation",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Local rollback/content correction"
+      },
+      {
+        "case_id": "31",
+        "field": "Detector",
+        "annotator_c": "Organization",
+        "annotator_d": "Researcher/media"
+      },
+      {
+        "case_id": "31",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Information integrity; Reputational / trust; Service / operational",
+        "annotator_d": "Information integrity; Reputational / trust"
+      },
+      {
+        "case_id": "31",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Service suspension/retirement",
+        "annotator_d": "Interface/workflow/component modification; Local rollback/content correction; Service suspension/retirement"
+      },
+      {
+        "case_id": "31",
+        "field": "Causal Location(s)",
+        "annotator_c": "Integration/Interface; Model",
+        "annotator_d": "Model; Software/Implementation"
+      },
+      {
+        "case_id": "32",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Affected-case review/redress",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Organizational/process change"
+      },
+      {
+        "case_id": "33",
+        "field": "Detection Timing",
+        "annotator_c": "Immediate",
+        "annotator_d": "Delayed"
+      },
+      {
+        "case_id": "33",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "33",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "33",
+        "field": "Failure Mode(s)",
+        "annotator_c": "Capability Limitation",
+        "annotator_d": "Objective/Metric Misalignment"
+      },
+      {
+        "case_id": "33",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Financial / economic; Service / operational",
+        "annotator_d": "Civil rights / fairness / access; Financial / economic; Service / operational"
+      },
+      {
+        "case_id": "33",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Downstream validation addition; Policy/governance change; Threshold/configuration adjustment"
+      },
+      {
+        "case_id": "33",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model; Operational Process",
+        "annotator_d": "Human/Organizational Governance; Software/Implementation"
+      },
+      {
+        "case_id": "34",
+        "field": "Detector",
+        "annotator_c": "Third party",
+        "annotator_d": "Affected user"
+      },
+      {
+        "case_id": "34",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "34",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "34",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Organizational/process change"
+      },
+      {
+        "case_id": "35",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "35",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "35",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation"
+      },
+      {
+        "case_id": "36",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred"
+      },
+      {
+        "case_id": "36",
+        "field": "Propagation Reach",
+        "annotator_c": "P3",
+        "annotator_d": "P2"
+      },
+      {
+        "case_id": "36",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "36",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Financial / economic; Legal / regulatory; Physical safety / health",
+        "annotator_d": "Legal / regulatory; Physical safety / health; Service / operational"
+      },
+      {
+        "case_id": "36",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Downstream validation addition; Fallback/human-escalation addition; Software/pipeline repair"
+      },
+      {
+        "case_id": "36",
+        "field": "Causal Location(s)",
+        "annotator_c": "Model",
+        "annotator_d": "Model; Operational Process; Software/Implementation"
+      },
+      {
+        "case_id": "37",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "37",
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P3"
+      },
+      {
+        "case_id": "37",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "37",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Local rollback/content correction"
+      },
+      {
+        "case_id": "38",
+        "field": "Industry",
+        "annotator_c": "Government & Public Services",
+        "annotator_d": "Social Media & Platforms"
+      },
+      {
+        "case_id": "38",
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Contestation/appeal"
+      },
+      {
+        "case_id": "38",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "38",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "38",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Information integrity; Psychological / social; Reputational / trust",
+        "annotator_d": "Legal / regulatory; Psychological / social; Reputational / trust"
+      },
+      {
+        "case_id": "38",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Local rollback/content correction"
+      },
+      {
+        "case_id": "39",
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented"
+      },
+      {
+        "case_id": "39",
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "39",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Financial / economic; Privacy / data protection; Security / abuse",
+        "annotator_d": "Financial / economic; Information integrity; Security / abuse"
+      },
+      {
+        "case_id": "39",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "IE",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Organizational/process change"
+      },
+      {
+        "case_id": "40",
+        "field": "Detection Timing",
+        "annotator_c": "Delayed",
+        "annotator_d": "Retrospective"
+      },
+      {
+        "case_id": "40",
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Pattern/statistical"
+      },
+      {
+        "case_id": "40",
+        "field": "Risk Domain",
+        "annotator_c": "Privacy & Data Protection",
+        "annotator_d": "Social, Psychological & Trust"
+      },
+      {
+        "case_id": "40",
+        "field": "Recovery Complexity",
+        "annotator_c": "High",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "40",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Affected-case review/redress; Legal/regulatory remediation",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Local rollback/content correction"
+      },
+      {
+        "case_id": "41",
+        "field": "Risk Domain",
+        "annotator_c": "Financial & Economic Harm",
+        "annotator_d": "Security & Malicious Use"
+      },
+      {
+        "case_id": "41",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Legal/regulatory remediation",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Organizational/process change"
+      },
+      {
+        "case_id": "42",
+        "field": "Detection Timing",
+        "annotator_c": "Delayed",
+        "annotator_d": "Retrospective"
+      },
+      {
+        "case_id": "42",
+        "field": "Recovery Complexity",
+        "annotator_c": "Moderate",
+        "annotator_d": "High"
+      },
+      {
+        "case_id": "42",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Software/pipeline repair",
+        "annotator_d": "Downstream validation addition; Monitoring/drift-detection addition; Software/pipeline repair"
+      },
+      {
+        "case_id": "42",
+        "field": "Causal Location(s)",
+        "annotator_c": "Software/Implementation",
+        "annotator_d": "Operational Process; Software/Implementation"
+      },
+      {
+        "case_id": "43",
+        "field": "Industry",
+        "annotator_c": "Other",
+        "annotator_d": "Government & Public Services"
+      },
+      {
+        "case_id": "43",
+        "field": "Detection Timing",
+        "annotator_c": "Delayed",
+        "annotator_d": "Retrospective"
+      },
+      {
+        "case_id": "43",
+        "field": "Detection Signal",
+        "annotator_c": "Contestation/appeal",
+        "annotator_d": "Pattern/statistical"
+      },
+      {
+        "case_id": "43",
+        "field": "Temporal Pattern",
+        "annotator_c": "Recurring incidents",
+        "annotator_d": "Single event"
+      },
+      {
+        "case_id": "43",
+        "field": "Risk Assessment",
+        "annotator_c": "High",
+        "annotator_d": "Severe"
+      },
+      {
+        "case_id": "43",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Legal/regulatory remediation",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Policy/governance change"
+      },
+      {
+        "case_id": "44",
+        "field": "Risk Domain",
+        "annotator_c": "Financial & Economic Harm",
+        "annotator_d": "Security & Malicious Use"
+      },
+      {
+        "case_id": "44",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Legal/regulatory remediation; Organizational/process change",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Organizational/process change"
+      },
+      {
+        "case_id": "45",
+        "field": "Detection Timing",
+        "annotator_c": "Retrospective",
+        "annotator_d": "Delayed"
+      },
+      {
+        "case_id": "45",
+        "field": "Recovery Complexity",
+        "annotator_c": "High",
+        "annotator_d": "Moderate"
+      },
+      {
+        "case_id": "45",
+        "field": "Impact Dimension(s)",
+        "annotator_c": "Education / employment; Psychological / social; Reputational / trust",
+        "annotator_d": "Legal / regulatory; Psychological / social; Reputational / trust"
+      },
+      {
+        "case_id": "45",
+        "field": "Recovery / Maintenance Action(s)",
+        "annotator_c": "Legal/regulatory remediation; Organizational/process change",
+        "annotator_d": "Affected-case review/redress; Legal/regulatory remediation; Organizational/process change"
+      }
+    ],
+    "confusions": [
+      {
+        "field": "System Type",
+        "annotator_c": "Autonomous Control/Robotics System",
+        "annotator_d": "Autonomous Control/Robotics System",
+        "count": 7
+      },
+      {
+        "field": "System Type",
+        "annotator_c": "Decision-Support/Optimization System",
+        "annotator_d": "Decision-Support/Optimization System",
+        "count": 1
+      },
+      {
+        "field": "System Type",
+        "annotator_c": "Generative/Conversational System",
+        "annotator_d": "Generative/Conversational System",
+        "count": 25
+      },
+      {
+        "field": "System Type",
+        "annotator_c": "Moderation/Filtering/Detection System",
+        "annotator_d": "Moderation/Filtering/Detection System",
+        "count": 1
+      },
+      {
+        "field": "System Type",
+        "annotator_c": "Predictive/Scoring Model",
+        "annotator_d": "Predictive/Scoring Model",
+        "count": 4
+      },
+      {
+        "field": "System Type",
+        "annotator_c": "Recommendation/Ranking System",
+        "annotator_d": "Recommendation/Ranking System",
+        "count": 3
+      },
+      {
+        "field": "System Type",
+        "annotator_c": "Security/Threat Analysis System",
+        "annotator_d": "Security/Threat Analysis System",
+        "count": 1
+      },
+      {
+        "field": "System Type",
+        "annotator_c": "Surveillance/Identification System",
+        "annotator_d": "Surveillance/Identification System",
+        "count": 3
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Education & Workforce",
+        "annotator_d": "Education & Workforce",
+        "count": 8
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Finance, Retail & Commerce",
+        "annotator_d": "Finance, Retail & Commerce",
+        "count": 10
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Government & Public Services",
+        "annotator_d": "Government & Public Services",
+        "count": 4
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Government & Public Services",
+        "annotator_d": "Social Media & Platforms",
+        "count": 2
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Healthcare & Medicine",
+        "annotator_d": "Healthcare & Medicine",
+        "count": 1
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Other",
+        "annotator_d": "Finance, Retail & Commerce",
+        "count": 1
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Other",
+        "annotator_d": "Government & Public Services",
+        "count": 1
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Security & Law Enforcement",
+        "annotator_d": "Security & Law Enforcement",
+        "count": 4
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Social Media & Platforms",
+        "annotator_d": "Social Media & Platforms",
+        "count": 3
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Social Media & Platforms",
+        "annotator_d": "Technology & AI Services",
+        "count": 2
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Technology & AI Services",
+        "annotator_d": "Technology & AI Services",
+        "count": 2
+      },
+      {
+        "field": "Industry",
+        "annotator_c": "Transportation & Automotive",
+        "annotator_d": "Transportation & Automotive",
+        "count": 7
+      },
+      {
+        "field": "Failure Category",
+        "annotator_c": "Adversarial",
+        "annotator_d": "Adversarial",
+        "count": 19
+      },
+      {
+        "field": "Failure Category",
+        "annotator_c": "Distributional",
+        "annotator_d": "Distributional",
+        "count": 4
+      },
+      {
+        "field": "Failure Category",
+        "annotator_c": "Distributional",
+        "annotator_d": "Operational",
+        "count": 1
+      },
+      {
+        "field": "Failure Category",
+        "annotator_c": "Operational",
+        "annotator_d": "Distributional",
+        "count": 1
+      },
+      {
+        "field": "Failure Category",
+        "annotator_c": "Operational",
+        "annotator_d": "Operational",
+        "count": 20
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Biased / disparate decision",
+        "annotator_d": "Biased / disparate decision",
+        "count": 3
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "False negative / omission",
+        "annotator_d": "False negative / omission",
+        "count": 1
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Hallucinated / fabricated output",
+        "annotator_d": "Hallucinated / fabricated output",
+        "count": 4
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Human override / oversight failure",
+        "annotator_d": "Multiple — specify",
+        "count": 1
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Incorrect recommendation / ranking / amplification",
+        "annotator_d": "Incorrect recommendation / ranking / amplification",
+        "count": 1
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Incorrect score / prediction / allocation",
+        "annotator_d": "Incorrect recommendation / ranking / amplification",
+        "count": 1
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Incorrect score / prediction / allocation",
+        "annotator_d": "Incorrect score / prediction / allocation",
+        "count": 3
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Manipulated / deceptive content",
+        "annotator_d": "Manipulated / deceptive content",
+        "count": 18
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Misclassification / false positive",
+        "annotator_d": "Misclassification / false positive",
+        "count": 2
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Misclassification / false positive",
+        "annotator_d": "Multiple — specify",
+        "count": 1
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Multiple — specify",
+        "annotator_d": "Multiple — specify",
+        "count": 1
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Privacy intrusion / surveillance",
+        "annotator_d": "Privacy intrusion / surveillance",
+        "count": 1
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Unauthorized access / data exposure",
+        "annotator_d": "Unauthorized access / data exposure",
+        "count": 1
+      },
+      {
+        "field": "Manifestation Pattern",
+        "annotator_c": "Unsafe physical action or control",
+        "annotator_d": "Unsafe physical action or control",
+        "count": 7
+      },
+      {
+        "field": "Boundary Transfer",
+        "annotator_c": "Y",
+        "annotator_d": "Y",
+        "count": 45
+      },
+      {
+        "field": "Transfer Mode",
+        "annotator_c": "Silent",
+        "annotator_d": "Silent",
+        "count": 45
+      },
+      {
+        "field": "Amplification",
+        "annotator_c": "N",
+        "annotator_d": "N",
+        "count": 3
+      },
+      {
+        "field": "Amplification",
+        "annotator_c": "N",
+        "annotator_d": "Y",
+        "count": 1
+      },
+      {
+        "field": "Amplification",
+        "annotator_c": "Y",
+        "annotator_d": "N",
+        "count": 1
+      },
+      {
+        "field": "Amplification",
+        "annotator_c": "Y",
+        "annotator_d": "Y",
+        "count": 40
+      },
+      {
+        "field": "Detection Timing",
+        "annotator_c": "Delayed",
+        "annotator_d": "Delayed",
+        "count": 19
+      },
+      {
+        "field": "Detection Timing",
+        "annotator_c": "Delayed",
+        "annotator_d": "Retrospective",
+        "count": 5
+      },
+      {
+        "field": "Detection Timing",
+        "annotator_c": "Immediate",
+        "annotator_d": "Delayed",
+        "count": 2
+      },
+      {
+        "field": "Detection Timing",
+        "annotator_c": "Immediate",
+        "annotator_d": "Immediate",
+        "count": 6
+      },
+      {
+        "field": "Detection Timing",
+        "annotator_c": "Retrospective",
+        "annotator_d": "Delayed",
+        "count": 2
+      },
+      {
+        "field": "Detection Timing",
+        "annotator_c": "Retrospective",
+        "annotator_d": "Retrospective",
+        "count": 11
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Affected user",
+        "annotator_d": "Affected user",
+        "count": 15
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Affected user",
+        "annotator_d": "Regulator/legal",
+        "count": 1
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "IE",
+        "annotator_d": "Affected user",
+        "count": 1
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Operator",
+        "annotator_d": "Operator",
+        "count": 1
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Organization",
+        "annotator_d": "Organization",
+        "count": 4
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Organization",
+        "annotator_d": "Researcher/media",
+        "count": 2
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Regulator/legal",
+        "annotator_d": "Regulator/legal",
+        "count": 7
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Researcher/media",
+        "annotator_d": "Affected user",
+        "count": 2
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Researcher/media",
+        "annotator_d": "Researcher/media",
+        "count": 3
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Third party",
+        "annotator_d": "Affected user",
+        "count": 3
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Third party",
+        "annotator_d": "Regulator/legal",
+        "count": 2
+      },
+      {
+        "field": "Detector",
+        "annotator_c": "Third party",
+        "annotator_d": "Third party",
+        "count": 4
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Behavioral anomaly",
+        "annotator_d": "Behavioral anomaly",
+        "count": 2
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Behavioral anomaly",
+        "annotator_d": "Consequence-based",
+        "count": 2
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Consequence-based",
+        "count": 16
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Contestation/appeal",
+        "count": 6
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Consequence-based",
+        "annotator_d": "Pattern/statistical",
+        "count": 1
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Contestation/appeal",
+        "annotator_d": "Contestation/appeal",
+        "count": 7
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Contestation/appeal",
+        "annotator_d": "Pattern/statistical",
+        "count": 1
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "IE",
+        "annotator_d": "Contestation/appeal",
+        "count": 1
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Pattern/statistical",
+        "annotator_d": "Behavioral anomaly",
+        "count": 1
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Pattern/statistical",
+        "annotator_d": "Consequence-based",
+        "count": 1
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Pattern/statistical",
+        "annotator_d": "Contestation/appeal",
+        "count": 1
+      },
+      {
+        "field": "Detection Signal",
+        "annotator_c": "Pattern/statistical",
+        "annotator_d": "Pattern/statistical",
+        "count": 6
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Fairness, Civil Rights & Access",
+        "annotator_d": "Fairness, Civil Rights & Access",
+        "count": 7
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Fairness, Civil Rights & Access",
+        "annotator_d": "Legal, Regulatory & Governance",
+        "count": 1
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Financial & Economic Harm",
+        "annotator_d": "Security & Malicious Use",
+        "count": 2
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Information Integrity & Content Harm",
+        "annotator_d": "Information Integrity & Content Harm",
+        "count": 4
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Legal, Regulatory & Governance",
+        "annotator_d": "Legal, Regulatory & Governance",
+        "count": 1
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Privacy & Data Protection",
+        "annotator_d": "Fairness, Civil Rights & Access",
+        "count": 1
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Privacy & Data Protection",
+        "annotator_d": "Privacy & Data Protection",
+        "count": 1
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Privacy & Data Protection",
+        "annotator_d": "Social, Psychological & Trust",
+        "count": 2
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Safety & Health",
+        "annotator_d": "Safety & Health",
+        "count": 11
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Security & Malicious Use",
+        "annotator_d": "Security & Malicious Use",
+        "count": 8
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Service Reliability & Operations",
+        "annotator_d": "Service Reliability & Operations",
+        "count": 1
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Social, Psychological & Trust",
+        "annotator_d": "Information Integrity & Content Harm",
+        "count": 2
+      },
+      {
+        "field": "Risk Domain",
+        "annotator_c": "Social, Psychological & Trust",
+        "annotator_d": "Social, Psychological & Trust",
+        "count": 4
+      },
+      {
+        "field": "Recovery Evidence Status",
+        "annotator_c": "Documented",
+        "annotator_d": "Documented",
+        "count": 16
+      },
+      {
+        "field": "Recovery Evidence Status",
+        "annotator_c": "Documented",
+        "annotator_d": "Inferred",
+        "count": 1
+      },
+      {
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Documented",
+        "count": 9
+      },
+      {
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "IE",
+        "count": 1
+      },
+      {
+        "field": "Recovery Evidence Status",
+        "annotator_c": "IE",
+        "annotator_d": "Inferred",
+        "count": 18
+      },
+      {
+        "field": "Lifecycle Phase",
+        "annotator_c": "Deployment/Rollout",
+        "annotator_d": "Deployment/Rollout",
+        "count": 2
+      },
+      {
+        "field": "Lifecycle Phase",
+        "annotator_c": "Post-deployment",
+        "annotator_d": "Deployment/Rollout",
+        "count": 1
+      },
+      {
+        "field": "Lifecycle Phase",
+        "annotator_c": "Post-deployment",
+        "annotator_d": "Post-deployment",
+        "count": 42
+      },
+      {
+        "field": "Temporal Pattern",
+        "annotator_c": "Ongoing pattern",
+        "annotator_d": "Ongoing pattern",
+        "count": 14
+      },
+      {
+        "field": "Temporal Pattern",
+        "annotator_c": "Ongoing pattern",
+        "annotator_d": "Single event",
+        "count": 1
+      },
+      {
+        "field": "Temporal Pattern",
+        "annotator_c": "Recurring incidents",
+        "annotator_d": "Ongoing pattern",
+        "count": 2
+      },
+      {
+        "field": "Temporal Pattern",
+        "annotator_c": "Recurring incidents",
+        "annotator_d": "Recurring incidents",
+        "count": 8
+      },
+      {
+        "field": "Temporal Pattern",
+        "annotator_c": "Recurring incidents",
+        "annotator_d": "Single event",
+        "count": 2
+      },
+      {
+        "field": "Temporal Pattern",
+        "annotator_c": "Single event",
+        "annotator_d": "Ongoing pattern",
+        "count": 1
+      },
+      {
+        "field": "Temporal Pattern",
+        "annotator_c": "Single event",
+        "annotator_d": "Recurring incidents",
+        "count": 1
+      },
+      {
+        "field": "Temporal Pattern",
+        "annotator_c": "Single event",
+        "annotator_d": "Single event",
+        "count": 16
+      },
+      {
+        "field": "Propagation Reach",
+        "annotator_c": "P1",
+        "annotator_d": "P1",
+        "count": 3
+      },
+      {
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P1",
+        "count": 2
+      },
+      {
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P2",
+        "count": 9
+      },
+      {
+        "field": "Propagation Reach",
+        "annotator_c": "P2",
+        "annotator_d": "P3",
+        "count": 5
+      },
+      {
+        "field": "Propagation Reach",
+        "annotator_c": "P3",
+        "annotator_d": "P1",
+        "count": 1
+      },
+      {
+        "field": "Propagation Reach",
+        "annotator_c": "P3",
+        "annotator_d": "P2",
+        "count": 1
+      },
+      {
+        "field": "Propagation Reach",
+        "annotator_c": "P3",
+        "annotator_d": "P3",
+        "count": 24
+      },
+      {
+        "field": "Risk Assessment",
+        "annotator_c": "Critical",
+        "annotator_d": "Critical",
+        "count": 5
+      },
+      {
+        "field": "Risk Assessment",
+        "annotator_c": "High",
+        "annotator_d": "High",
+        "count": 28
+      },
+      {
+        "field": "Risk Assessment",
+        "annotator_c": "High",
+        "annotator_d": "Severe",
+        "count": 3
+      },
+      {
+        "field": "Risk Assessment",
+        "annotator_c": "Moderate",
+        "annotator_d": "Moderate",
+        "count": 4
+      },
+      {
+        "field": "Risk Assessment",
+        "annotator_c": "Severe",
+        "annotator_d": "High",
+        "count": 1
+      },
+      {
+        "field": "Risk Assessment",
+        "annotator_c": "Severe",
+        "annotator_d": "Severe",
+        "count": 4
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "High",
+        "annotator_d": "High",
+        "count": 5
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "High",
+        "annotator_d": "Moderate",
+        "count": 2
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "High",
+        "annotator_d": "Severe",
+        "count": 1
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "High",
+        "count": 8
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "IE",
+        "count": 1
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Low",
+        "count": 1
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Moderate",
+        "count": 15
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "IE",
+        "annotator_d": "Severe",
+        "count": 3
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "Moderate",
+        "annotator_d": "High",
+        "count": 3
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "Moderate",
+        "annotator_d": "Moderate",
+        "count": 4
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "Severe",
+        "annotator_d": "High",
+        "count": 1
+      },
+      {
+        "field": "Recovery Complexity",
+        "annotator_c": "Severe",
+        "annotator_d": "Very High",
+        "count": 1
+      }
+    ]
+  }
+}

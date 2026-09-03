@@ -1,0 +1,33 @@
+field,n_paired,c_ie_na,d_ie_na,c_blank,d_blank,status_exact_agreement,status_kappa
+Date,40,0,0,0,0,1.0,1.0
+Entity,40,0,0,0,0,1.0,1.0
+System Type,40,0,0,0,0,1.0,1.0
+Title,40,0,0,0,0,1.0,1.0
+Industry,40,0,0,0,0,1.0,1.0
+Application Domain,40,0,0,0,0,1.0,1.0
+Failure Category,40,0,0,0,0,1.0,1.0
+Failure Mode(s),40,0,0,0,0,1.0,1.0
+Manifestation Pattern,40,0,0,0,0,1.0,1.0
+Manifestation — Brief Description,40,0,0,0,0,1.0,1.0
+Propagation Reach,40,0,0,0,0,1.0,1.0
+Boundary Transfer,40,0,0,0,0,1.0,1.0
+Transfer Mode,40,0,0,0,0,1.0,1.0
+Amplification,40,0,0,0,0,1.0,1.0
+Propagation Chain,40,0,0,0,0,1.0,1.0
+Detection Timing,40,0,0,0,0,1.0,1.0
+Detector,40,0,0,0,0,1.0,1.0
+Detection Signal,40,0,0,0,0,1.0,1.0
+Impact Dimension(s),40,0,0,0,0,1.0,1.0
+Risk Assessment,40,0,0,0,0,1.0,1.0
+Risk Domain,40,0,0,0,0,1.0,1.0
+Risk Subdomain,40,0,0,0,0,1.0,1.0
+Recovery Complexity,40,24,0,0,0,0.4,0.0
+Recovery Evidence Status,40,24,0,0,0,0.4,0.0
+Recovery / Maintenance Action(s),40,24,0,0,0,0.4,0.0
+Causal Location(s),40,0,0,0,0,1.0,1.0
+Causal Mechanism,40,0,0,0,0,1.0,1.0
+Missing Safeguard,40,20,0,0,0,0.5,0.0
+Root Cause Description,40,0,0,0,0,1.0,1.0
+Lifecycle Phase,40,0,0,0,0,1.0,1.0
+Temporal Pattern,40,0,0,0,0,1.0,1.0
+Timing / Period,40,0,0,0,0,1.0,1.0

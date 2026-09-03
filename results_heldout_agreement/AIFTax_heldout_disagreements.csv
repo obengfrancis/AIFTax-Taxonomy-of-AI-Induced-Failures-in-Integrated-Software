@@ -1,0 +1,226 @@
+case_id,field,annotator_c,annotator_d
+1,Amplification,Y,N
+1,Propagation Reach,P2,P1
+1,Recovery Complexity,Moderate,High
+1,Impact Dimension(s),Legal / regulatory; Physical safety / health; Service / operational,Physical safety / health; Service / operational
+1,Recovery / Maintenance Action(s),Software/pipeline repair,Downstream validation addition; Software/pipeline repair
+1,Causal Location(s),Software/Implementation,Model; Software/Implementation
+2,Recovery Evidence Status,IE,Inferred
+2,Propagation Reach,P2,P1
+2,Recovery Complexity,IE,High
+2,Impact Dimension(s),Legal / regulatory; Physical safety / health,Physical safety / health
+2,Recovery / Maintenance Action(s),IE,Downstream validation addition; Fallback/human-escalation addition
+2,Causal Location(s),Model,Model; Operational Process
+3,Detector,Third party,Regulator/legal
+3,Recovery Evidence Status,IE,Inferred
+3,Risk Assessment,High,Severe
+3,Recovery Complexity,IE,High
+3,Recovery / Maintenance Action(s),IE,Downstream validation addition; Model retraining/revalidation; Policy/governance change
+3,Causal Location(s),Model,Data; Model
+4,Industry,Other,"Finance, Retail & Commerce"
+4,Detection Timing,Immediate,Delayed
+4,Recovery Evidence Status,IE,Inferred
+4,Temporal Pattern,Recurring incidents,Ongoing pattern
+4,Propagation Reach,P2,P3
+4,Recovery Complexity,IE,Moderate
+4,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Policy/governance change
+5,Propagation Reach,P3,P1
+5,Impact Dimension(s),Financial / economic; Physical safety / health; Service / operational,Physical safety / health; Service / operational
+6,Failure Category,Operational,Distributional
+6,Recovery Evidence Status,Documented,Inferred
+6,Recovery Complexity,Moderate,High
+6,Failure Mode(s),Capability Limitation,Bias & Discrimination
+6,Recovery / Maintenance Action(s),Affected-case review/redress; Legal/regulatory remediation,Affected-case review/redress; Downstream validation addition; Fallback/human-escalation addition
+6,Causal Location(s),Integration/Interface; Model; Operational Process,Model; Operational Process
+7,Amplification,N,Y
+7,Detection Signal,Behavioral anomaly,Consequence-based
+7,Recovery Evidence Status,IE,Inferred
+7,Recovery Complexity,IE,High
+7,Recovery / Maintenance Action(s),IE,Downstream validation addition; Fallback/human-escalation addition; Software/pipeline repair
+7,Causal Location(s),Model,Model; Software/Implementation
+8,Detector,Affected user,Regulator/legal
+8,Recovery Evidence Status,IE,Inferred
+8,Risk Assessment,High,Severe
+8,Recovery Complexity,IE,High
+8,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Downstream validation addition; Model retraining/revalidation
+8,Causal Location(s),Model,Data; Human/Organizational Governance; Model
+9,Recovery Evidence Status,IE,Inferred
+9,Recovery Complexity,IE,Moderate
+9,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Organizational/process change
+10,Detection Signal,Consequence-based,Contestation/appeal
+10,Risk Domain,"Social, Psychological & Trust",Information Integrity & Content Harm
+10,Recovery Evidence Status,IE,Documented
+10,Temporal Pattern,Recurring incidents,Single event
+10,Recovery Complexity,IE,Moderate
+10,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Legal/regulatory remediation; Organizational/process change
+11,Recovery Evidence Status,IE,Inferred
+11,Temporal Pattern,Recurring incidents,Ongoing pattern
+11,Recovery Complexity,IE,Moderate
+11,Recovery / Maintenance Action(s),IE,Local rollback/content correction; Monitoring/drift-detection addition
+12,Detection Signal,Pattern/statistical,Behavioral anomaly
+12,Recovery Evidence Status,IE,Documented
+12,Lifecycle Phase,Post-deployment,Deployment/Rollout
+12,Recovery Complexity,IE,Moderate
+12,Impact Dimension(s),Information integrity; Legal / regulatory; Service / operational,Information integrity; Legal / regulatory; Reputational / trust
+12,Recovery / Maintenance Action(s),IE,Downstream validation addition; Local rollback/content correction; Organizational/process change
+12,Causal Location(s),Model,Model; Operational Process
+13,Manifestation Pattern,Incorrect score / prediction / allocation,Incorrect recommendation / ranking / amplification
+13,Recovery Evidence Status,IE,Inferred
+13,Recovery Complexity,IE,Severe
+13,Recovery / Maintenance Action(s),IE,Interface/workflow/component modification; Organizational/process change; Policy/governance change
+13,Causal Location(s),Human/Organizational Governance; Model,Human/Organizational Governance; Model; Operational Process
+14,Recovery Complexity,Severe,Very High
+14,Recovery / Maintenance Action(s),Legal/regulatory remediation; Service suspension/retirement,Legal/regulatory remediation; Service suspension/retirement; Software/pipeline repair
+14,Causal Location(s),Model; Software/Implementation,Model; Operational Process; Software/Implementation
+15,Detector,Third party,Affected user
+15,Impact Dimension(s),Financial / economic; Psychological / social; Security / abuse,Financial / economic; Security / abuse
+15,Recovery / Maintenance Action(s),Legal/regulatory remediation,Affected-case review/redress; Legal/regulatory remediation
+16,Recovery Evidence Status,IE,Inferred
+16,Propagation Reach,P2,P3
+16,Recovery Complexity,IE,Severe
+16,Impact Dimension(s),Civil rights / fairness / access; Physical safety / health; Service / operational,Civil rights / fairness / access; Legal / regulatory; Physical safety / health
+16,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Model retraining/revalidation; Policy/governance change; Threshold/configuration adjustment
+17,Industry,Social Media & Platforms,Technology & AI Services
+17,Detector,IE,Affected user
+17,Detection Signal,IE,Contestation/appeal
+17,Recovery Evidence Status,IE,Documented
+17,Temporal Pattern,Single event,Recurring incidents
+17,Recovery Complexity,IE,High
+17,Recovery / Maintenance Action(s),IE,Legal/regulatory remediation; Local rollback/content correction; Service suspension/retirement
+18,Detection Timing,Retrospective,Delayed
+18,Detector,Researcher/media,Affected user
+18,Detection Signal,Pattern/statistical,Consequence-based
+18,Recovery Evidence Status,IE,Inferred
+18,Recovery Complexity,IE,High
+18,Recovery / Maintenance Action(s),IE,Downstream validation addition; Monitoring/drift-detection addition; Policy/governance change
+19,Industry,Government & Public Services,Social Media & Platforms
+19,Detection Signal,Consequence-based,Contestation/appeal
+19,Recovery Evidence Status,IE,Inferred
+19,Temporal Pattern,Single event,Ongoing pattern
+19,Recovery Complexity,IE,Moderate
+19,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Local rollback/content correction
+20,Detection Signal,Pattern/statistical,Contestation/appeal
+20,Risk Domain,Privacy & Data Protection,"Fairness, Civil Rights & Access"
+20,Temporal Pattern,Ongoing pattern,Single event
+20,Propagation Reach,P2,P3
+20,Risk Assessment,Severe,High
+20,Recovery Complexity,Severe,High
+20,Impact Dimension(s),Legal / regulatory; Privacy / data protection; Service / operational,Civil rights / fairness / access; Legal / regulatory; Privacy / data protection
+20,Recovery / Maintenance Action(s),Organizational/process change; Policy/governance change; Service suspension/retirement,Downstream validation addition; Organizational/process change; Policy/governance change
+20,Causal Location(s),Human/Organizational Governance; Integration/Interface; Operational Process,Human/Organizational Governance; Model; Operational Process
+21,Failure Category,Distributional,Operational
+21,Detector,Organization,Researcher/media
+21,Recovery Evidence Status,IE,Inferred
+21,Recovery Complexity,IE,Severe
+21,Failure Mode(s),Prediction/Calibration Failure,Objective/Metric Misalignment
+21,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Model retraining/revalidation; Policy/governance change
+21,Causal Location(s),Human/Organizational Governance; Integration/Interface; Model,Data; Human/Organizational Governance; Model
+22,Recovery Evidence Status,IE,Inferred
+22,Recovery Complexity,IE,Moderate
+22,Impact Dimension(s),Privacy / data protection; Reputational / trust; Security / abuse,Privacy / data protection; Reputational / trust; Service / operational
+22,Recovery / Maintenance Action(s),IE,Interface/workflow/component modification; Policy/governance change; Threshold/configuration adjustment
+22,Causal Location(s),Integration/Interface; Software/Implementation,Human/Organizational Governance; Integration/Interface; Software/Implementation
+23,Detection Signal,Consequence-based,Contestation/appeal
+23,Risk Domain,Privacy & Data Protection,"Social, Psychological & Trust"
+23,Recovery Evidence Status,IE,Documented
+23,Recovery Complexity,IE,Moderate
+23,Impact Dimension(s),Privacy / data protection; Psychological / social; Reputational / trust,Legal / regulatory; Privacy / data protection; Psychological / social
+23,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Legal/regulatory remediation; Policy/governance change
+24,Recovery Evidence Status,IE,Inferred
+24,Recovery Complexity,IE,Moderate
+24,Impact Dimension(s),Physical safety / health,Physical safety / health; Service / operational
+24,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Downstream validation addition; Software/pipeline repair
+24,Causal Location(s),Model,Model; Software/Implementation
+25,Detection Timing,Delayed,Retrospective
+25,Propagation Reach,P2,P3
+25,Recovery / Maintenance Action(s),Affected-case review/redress; Legal/regulatory remediation,Affected-case review/redress; Fallback/human-escalation addition; Legal/regulatory remediation
+25,Causal Location(s),Integration/Interface; Model; Operational Process,Model; Operational Process
+26,Detector,Third party,Regulator/legal
+26,Recovery Evidence Status,IE,Documented
+26,Recovery Complexity,IE,High
+26,Recovery / Maintenance Action(s),IE,Legal/regulatory remediation; Model retraining/revalidation; Policy/governance change
+26,Causal Location(s),Data; Model,Data; Human/Organizational Governance; Model
+27,Manifestation Pattern,Misclassification / false positive,Multiple — specify
+27,Risk Domain,"Fairness, Civil Rights & Access","Legal, Regulatory & Governance"
+27,Recovery Complexity,High,Severe
+27,Failure Mode(s),Safety Validation/Oversight Gap,Capability Limitation
+27,Recovery / Maintenance Action(s),Affected-case review/redress; Legal/regulatory remediation,Affected-case review/redress; Legal/regulatory remediation; Service suspension/retirement
+28,Industry,Social Media & Platforms,Technology & AI Services
+28,Detector,Researcher/media,Affected user
+28,Detection Signal,Consequence-based,Contestation/appeal
+28,Risk Domain,"Social, Psychological & Trust",Information Integrity & Content Harm
+28,Recovery Evidence Status,IE,Inferred
+28,Recovery Complexity,IE,Low
+28,Impact Dimension(s),Information integrity; Reputational / trust,Information integrity; Legal / regulatory; Reputational / trust
+28,Recovery / Maintenance Action(s),IE,Downstream validation addition; Local rollback/content correction
+28,Causal Location(s),Integration/Interface; Model,Model; Operational Process; Software/Implementation
+29,Manifestation Pattern,Human override / oversight failure,Multiple — specify
+29,Detection Timing,Delayed,Retrospective
+29,Detector,Third party,Affected user
+29,Detection Signal,Behavioral anomaly,Consequence-based
+29,Failure Mode(s),Content Generation/Filtering Failure,Safety Validation/Oversight Gap
+29,Recovery / Maintenance Action(s),Fallback/human-escalation addition; Monitoring/drift-detection addition; Policy/governance change,Downstream validation addition; Fallback/human-escalation addition; Policy/governance change
+30,Detection Signal,Consequence-based,Contestation/appeal
+30,Recovery / Maintenance Action(s),Legal/regulatory remediation,Affected-case review/redress; Legal/regulatory remediation; Local rollback/content correction
+31,Detector,Organization,Researcher/media
+31,Impact Dimension(s),Information integrity; Reputational / trust; Service / operational,Information integrity; Reputational / trust
+31,Recovery / Maintenance Action(s),Service suspension/retirement,Interface/workflow/component modification; Local rollback/content correction; Service suspension/retirement
+31,Causal Location(s),Integration/Interface; Model,Model; Software/Implementation
+32,Recovery / Maintenance Action(s),Affected-case review/redress,Affected-case review/redress; Legal/regulatory remediation; Organizational/process change
+33,Detection Timing,Immediate,Delayed
+33,Recovery Evidence Status,IE,Inferred
+33,Recovery Complexity,IE,Moderate
+33,Failure Mode(s),Capability Limitation,Objective/Metric Misalignment
+33,Impact Dimension(s),Financial / economic; Service / operational,Civil rights / fairness / access; Financial / economic; Service / operational
+33,Recovery / Maintenance Action(s),IE,Downstream validation addition; Policy/governance change; Threshold/configuration adjustment
+33,Causal Location(s),Model; Operational Process,Human/Organizational Governance; Software/Implementation
+34,Detector,Third party,Affected user
+34,Recovery Evidence Status,IE,Inferred
+34,Recovery Complexity,IE,Moderate
+34,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Organizational/process change
+35,Recovery Evidence Status,IE,Documented
+35,Recovery Complexity,IE,Moderate
+35,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Legal/regulatory remediation
+36,Recovery Evidence Status,IE,Inferred
+36,Propagation Reach,P3,P2
+36,Recovery Complexity,IE,High
+36,Impact Dimension(s),Financial / economic; Legal / regulatory; Physical safety / health,Legal / regulatory; Physical safety / health; Service / operational
+36,Recovery / Maintenance Action(s),IE,Downstream validation addition; Fallback/human-escalation addition; Software/pipeline repair
+36,Causal Location(s),Model,Model; Operational Process; Software/Implementation
+37,Recovery Evidence Status,IE,Documented
+37,Propagation Reach,P2,P3
+37,Recovery Complexity,IE,Moderate
+37,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Legal/regulatory remediation; Local rollback/content correction
+38,Industry,Government & Public Services,Social Media & Platforms
+38,Detection Signal,Consequence-based,Contestation/appeal
+38,Recovery Evidence Status,IE,Documented
+38,Recovery Complexity,IE,Moderate
+38,Impact Dimension(s),Information integrity; Psychological / social; Reputational / trust,Legal / regulatory; Psychological / social; Reputational / trust
+38,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Legal/regulatory remediation; Local rollback/content correction
+39,Recovery Evidence Status,IE,Documented
+39,Recovery Complexity,IE,Moderate
+39,Impact Dimension(s),Financial / economic; Privacy / data protection; Security / abuse,Financial / economic; Information integrity; Security / abuse
+39,Recovery / Maintenance Action(s),IE,Affected-case review/redress; Legal/regulatory remediation; Organizational/process change
+40,Detection Timing,Delayed,Retrospective
+40,Detection Signal,Consequence-based,Pattern/statistical
+40,Risk Domain,Privacy & Data Protection,"Social, Psychological & Trust"
+40,Recovery Complexity,High,Moderate
+40,Recovery / Maintenance Action(s),Affected-case review/redress; Legal/regulatory remediation,Affected-case review/redress; Legal/regulatory remediation; Local rollback/content correction
+41,Risk Domain,Financial & Economic Harm,Security & Malicious Use
+41,Recovery / Maintenance Action(s),Legal/regulatory remediation,Affected-case review/redress; Legal/regulatory remediation; Organizational/process change
+42,Detection Timing,Delayed,Retrospective
+42,Recovery Complexity,Moderate,High
+42,Recovery / Maintenance Action(s),Software/pipeline repair,Downstream validation addition; Monitoring/drift-detection addition; Software/pipeline repair
+42,Causal Location(s),Software/Implementation,Operational Process; Software/Implementation
+43,Industry,Other,Government & Public Services
+43,Detection Timing,Delayed,Retrospective
+43,Detection Signal,Contestation/appeal,Pattern/statistical
+43,Temporal Pattern,Recurring incidents,Single event
+43,Risk Assessment,High,Severe
+43,Recovery / Maintenance Action(s),Legal/regulatory remediation,Affected-case review/redress; Legal/regulatory remediation; Policy/governance change
+44,Risk Domain,Financial & Economic Harm,Security & Malicious Use
+44,Recovery / Maintenance Action(s),Legal/regulatory remediation; Organizational/process change,Affected-case review/redress; Legal/regulatory remediation; Organizational/process change
+45,Detection Timing,Retrospective,Delayed
+45,Recovery Complexity,High,Moderate
+45,Impact Dimension(s),Education / employment; Psychological / social; Reputational / trust,Legal / regulatory; Psychological / social; Reputational / trust
+45,Recovery / Maintenance Action(s),Legal/regulatory remediation; Organizational/process change,Affected-case review/redress; Legal/regulatory remediation; Organizational/process change

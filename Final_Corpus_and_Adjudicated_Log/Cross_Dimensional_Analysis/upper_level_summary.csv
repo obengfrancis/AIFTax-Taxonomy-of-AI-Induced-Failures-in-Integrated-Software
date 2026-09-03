@@ -1,0 +1,5 @@
+Failure Category,n,High-or-worse Risk Count,High-or-worse Risk Percent,High-or-worse Recovery Count,High-or-worse Recovery Percent
+Operational,48,38,79.16666666666667,33,68.75
+Distributional,33,28,84.84848484848484,30,90.9090909090909
+Adversarial,14,13,92.85714285714286,12,85.71428571428571
+Mixed/Hybrid,5,5,100.0,5,100.0

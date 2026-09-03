@@ -116,7 +116,7 @@
     "source_link_mismatch_case_ids": [],
     "bootstrap_iterations": 2000,
     "bootstrap_seed": 2026,
-    "generated_utc": "2026-07-29T01:20:20+00:00"
+    "generated_utc": "2026-08-03T14:49:25+00:00"
   },
   "principal": [
     {
@@ -133,7 +133,7 @@
       "quadratic_weighted_kappa": null,
       "n_ordered": null,
       "excluded_from_weighted": null,
-      "ci_lower": 0.7215966206691312,
+      "ci_lower": 0.7215966206691311,
       "ci_upper": 0.919693548772859,
       "bootstrap_valid": 2000,
       "confusion_labels": [
@@ -626,7 +626,7 @@
       "missing_b": 0,
       "exact": 0.87,
       "disagreements": 13,
-      "kappa": 0.8533724340175953,
+      "kappa": 0.8533724340175952,
       "linear_weighted_kappa": null,
       "quadratic_weighted_kappa": null,
       "n_ordered": null,
@@ -856,7 +856,7 @@
       "missing_b": 0,
       "exact": 1.0,
       "disagreements": 0,
-      "kappa": 1.0,
+      "kappa": null,
       "linear_weighted_kappa": null,
       "quadratic_weighted_kappa": null,
       "n_ordered": null,
@@ -1388,9 +1388,9 @@
       "missing_b": 0,
       "exact": 1.0,
       "disagreements": 0,
-      "kappa": 1.0,
-      "linear_weighted_kappa": 1.0,
-      "quadratic_weighted_kappa": 1.0,
+      "kappa": null,
+      "linear_weighted_kappa": null,
+      "quadratic_weighted_kappa": null,
       "n_ordered": 100,
       "excluded_from_weighted": 0,
       "ci_lower": null,

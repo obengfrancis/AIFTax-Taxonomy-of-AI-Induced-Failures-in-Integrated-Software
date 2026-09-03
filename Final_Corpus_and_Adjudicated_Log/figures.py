@@ -310,85 +310,7 @@ plt.savefig(os.path.join(FIGDIR, 'fig4_recovery.png'))
 plt.close()
 print("✓ Figure 4 saved")
 
-# # ═══════════════════════════════════════════════════════════════════════════════
-# # FIGURE 5 — AI Failure Propagation Pattern Diagram
-# # ═══════════════════════════════════════════════════════════════════════════════
-# fig, ax = plt.subplots(figsize=(13, 5.5))
-# ax.set_xlim(0, 14)
-# ax.set_ylim(0, 6)
-# ax.axis('off')
 
-# # Stage data
-# stages = [
-#     ("Stage 1\n(Origin)",  "AI Component\nFailure",
-#      "Model drift, hallucination,\ncapability limitation, adversarial\ninput, or bias activation",
-#      1.2, '#2166AC'),
-#     ("Stage 2\n(Propagation)", "Undetected\nPropagation",
-#      "High-confidence output masks\nerror; downstream software\ncannot intercept AI failure",
-#      4.2, '#D73027'),
-#     ("Stage 3\n(Amplification)", "System-Wide\nImpact",
-#      "Cascading failures across\nintegrated components;\nresource misallocation",
-#      7.2, '#F46D43'),
-#     ("Stage 4\n(Consequence)", "User Harm or\nOperational Impact",
-#      "Safety incidents, financial loss,\ndiscrimination, service disruption,\nloss of public trust",
-#      10.2, '#67000D'),
-# ]
-
-# box_w, box_h = 2.4, 1.55
-# for (stage_label, title, desc, x, col) in stages:
-#     # Main box
-#     rect = mpatches.FancyBboxPatch((x - box_w/2, 2.6), box_w, box_h,
-#                                     boxstyle="round,pad=0.08",
-#                                     facecolor=col, edgecolor='white', linewidth=1.5,
-#                                     zorder=3)
-#     ax.add_patch(rect)
-#     ax.text(x, 3.37, title, ha='center', va='center',
-#             color='white', fontsize=10, fontweight='bold', zorder=4,
-#             linespacing=1.3)
-
-#     # Stage label above
-#     ax.text(x, 4.35, stage_label, ha='center', va='center',
-#             color=col, fontsize=8.5, fontweight='bold',
-#             bbox=dict(boxstyle='round,pad=0.3', facecolor='white',
-#                       edgecolor=col, linewidth=1.2))
-
-#     # Description below
-#     desc_box = mpatches.FancyBboxPatch((x - box_w/2, 1.1), box_w, 1.25,
-#                                         boxstyle="round,pad=0.06",
-#                                         facecolor='#F7F7F7', edgecolor=col,
-#                                         linewidth=1.0, zorder=2)
-#     ax.add_patch(desc_box)
-#     ax.text(x, 1.72, desc, ha='center', va='center',
-#             color='#333333', fontsize=7.5, zorder=3, linespacing=1.35)
-
-# # Arrows between stages
-# arrow_xs = [(2.41, 3.00), (5.41, 6.00), (8.41, 9.00)]
-# for (x1, x2) in arrow_xs:
-#     ax.annotate('', xy=(x2, 3.38), xytext=(x1, 3.38),
-#                 arrowprops=dict(arrowstyle='->', color='#555555',
-#                                 lw=2.0, mutation_scale=18))
-#     ax.text((x1+x2)/2, 3.6, "silent\ntransfer", ha='center', va='bottom',
-#             fontsize=7, color='#777777', style='italic')
-
-# # Detection gap callout
-# ax.annotate('', xy=(5.2, 2.9), xytext=(3.0, 2.3),
-#             arrowprops=dict(arrowstyle='->', color='#D73027', lw=1.4,
-#                             connectionstyle='arc3,rad=-0.25'))
-# ax.text(2.6, 2.05,
-#         "Traditional exception handlers\nblind to AI-confidence-masked failures",
-#         fontsize=7.5, color='#D73027', ha='center', style='italic',
-#         bbox=dict(boxstyle='round,pad=0.3', facecolor='#FFF5F0',
-#                   edgecolor='#D73027', linewidth=0.8))
-
-# # Title
-# ax.text(7, 5.6, "Recurring AI Failure Propagation Pattern (observed across 100 cases)",
-#         ha='center', va='center', fontsize=11, fontweight='bold', color='#222222')
-
-# plt.tight_layout()
-# plt.savefig(os.path.join(FIGDIR, 'fig5_propagation.pdf'))
-# plt.savefig(os.path.join(FIGDIR, 'fig5_propagation.png'))
-# plt.close()
-# print("✓ Figure 5 saved")
 # ═══════════════════════════════════════════════════════════════════════════════
 # FIGURE 5 — AI Failure Propagation Pattern Diagram
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -402,7 +324,7 @@ stages = [
      "Model drift, hallucination,\ncapability limitation, adversarial\ninput, or bias activation",
      1.2, '#2166AC'),
     ("Stage 2\n(Propagation)",  "Undetected\nPropagation",
-     "High-confidence output masks\nerror; downstream software\ncannot intercept AI failure",
+     "Plausible or structurally valid\noutput masks error; downstream\nsoftware may not intercept\nAI failure",
      4.1, '#D73027'),
     ("Stage 3\n(Amplification)","System-Wide\nImpact",
      "Cascading failures across\nintegrated components;\nresource misallocation",
@@ -440,21 +362,58 @@ for (stage_label, title, desc, x, col) in stages:
             color="#070707", fontsize=10, zorder=3, linespacing=1.4)
 
 # Arrows between stages
-arrow_xs =   [(2.20, 3.10), (5.10, 6.00), (8.00, 8.90)] #[(2.41, 2.95), (5.31, 5.90), (8.20, 8.75)]
-# arrow_xs = [(2.41, 3.00), (5.41, 6.00), (8.41, 9.00)]
-for (x1, x2) in arrow_xs:
-    ax.annotate('', xy=(x2, 3.38), xytext=(x1, 3.38),
-                arrowprops=dict(arrowstyle='->', color="#282626",
-                                lw=2.2, mutation_scale=20))
-    ax.text((x1+x2)/2, 3.62, "silent\ntransfer", ha='center', va='bottom',
-            fontsize=9, color="#080808", style='italic')
+arrow_xs = [
+    (2.20, 3.10),  # Stage 1 -> Stage 2
+    (5.10, 6.00),  # Stage 2 -> Stage 3
+    (8.00, 8.90),  # Stage 3 -> Stage 4
+]
+
+arrow_labels = [
+    "silent boundary\ntransfer",
+    "amplification",
+    "consequence",
+]
+
+for (x1, x2), label in zip(arrow_xs, arrow_labels):
+    ax.annotate(
+        '',
+        xy=(x2, 3.38),
+        xytext=(x1, 3.38),
+        arrowprops=dict(
+            arrowstyle='->',
+            color="#282626",
+            lw=2.2,
+            mutation_scale=20
+        )
+    )
+
+    ax.text(
+        (x1 + x2) / 2,
+        3.62,
+        label,
+        ha='center',
+        va='bottom',
+        fontsize=9,
+        color="#080808",
+        style='italic'
+    )
+# # Arrows between stages
+# arrow_xs =   [(2.20, 3.10), (5.10, 6.00), (8.00, 8.90)] #[(2.41, 2.95), (5.31, 5.90), (8.20, 8.75)]
+# # arrow_xs = [(2.41, 3.00), (5.41, 6.00), (8.41, 9.00)]
+# for (x1, x2) in arrow_xs:
+#     ax.annotate('', xy=(x2, 3.38), xytext=(x1, 3.38),
+#                 arrowprops=dict(arrowstyle='->', color="#282626",
+#                                 lw=2.2, mutation_scale=20))
+#     ax.text((x1+x2)/2, 3.62, "silent\ntransfer", ha='center', va='bottom',
+#             fontsize=9, color="#080808", style='italic')
+    
 
 # Detection gap callout
 ax.annotate('', xy=(5.0, 2.9), xytext=(2.9, 2.5),
             arrowprops=dict(arrowstyle='->', color='#D73027', lw=1.4,
-                            connectionstyle='arc3,rad=-0.25'))
-ax.text(2.5, 2.35,
-        "Traditional exception handlers\nblind to AI-confidence-masked failures",
+                            connectionstyle='arc3,rad=-0.2'))
+ax.text(2.5, 2.4,
+        "94%  silent transfer mode",
         fontsize=11, color='#D73027', ha='center', style='italic',
         bbox=dict(boxstyle='round,pad=0.3', facecolor='#FFF5F0',
                   edgecolor='#D73027', linewidth=0.9))

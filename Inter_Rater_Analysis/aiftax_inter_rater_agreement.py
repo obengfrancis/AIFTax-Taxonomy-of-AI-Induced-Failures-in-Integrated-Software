@@ -501,7 +501,7 @@ def cohen_kappa(keys_a: Sequence[str], keys_b: Sequence[str]) -> float | None:
     expected = sum((counts_a[label] / n) * (counts_b[label] / n) for label in labels)
     denominator = 1.0 - expected
     if math.isclose(denominator, 0.0, abs_tol=1e-12):
-        return 1.0 if math.isclose(observed, 1.0, abs_tol=1e-12) else None
+        return None  # 1.0 if math.isclose(observed, 1.0, abs_tol=1e-12) else None
     return (observed - expected) / denominator
 
 
@@ -543,7 +543,7 @@ def weighted_kappa(
             expected_disagreement += weight * ((row_totals[i] * col_totals[j]) / (n * n))
 
     if math.isclose(expected_disagreement, 0.0, abs_tol=1e-12):
-        return 1.0 if math.isclose(observed_disagreement, 0.0, abs_tol=1e-12) else None
+        return None #1.0 if math.isclose(observed_disagreement, 0.0, abs_tol=1e-12) else None
     return 1.0 - (observed_disagreement / expected_disagreement)
 
 

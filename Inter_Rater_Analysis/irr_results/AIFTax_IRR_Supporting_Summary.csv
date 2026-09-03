@@ -1,8 +1,8 @@
 ﻿Field,Level,N paired,Exact agreement,Unweighted kappa,Linear weighted kappa,Quadratic weighted kappa,Disagreements
 System Type,nominal,100,0.86,0.8278194564014267,,,14
 Industry,nominal,100,0.84,0.8166819431714023,,,16
-Manifestation Pattern,nominal,100,0.87,0.8533724340175953,,,13
-Boundary Transfer,nominal,100,1.0,1.0,,,0
+Manifestation Pattern,nominal,100,0.87,0.8533724340175952,,,13
+Boundary Transfer,nominal,100,1.0,,,,0
 Transfer Mode,nominal,100,0.92,0.1735537190082639,,,8
 Amplification,nominal,100,0.82,0.5194874532835024,,,18
 Detector,nominal,100,0.8,0.7425003218745977,,,20
@@ -11,4 +11,4 @@ Risk Domain,nominal,100,0.8,0.7470915528578654,,,20
 Recovery Evidence Status,nominal,100,0.76,0.4241842610364683,,,24
 Temporal Pattern,nominal,100,0.68,0.47523778287963275,,,32
 Detection Timing,ordinal,100,0.83,0.7376543209876543,0.807476231633535,0.8697711128650355,17
-Lifecycle Phase,ordinal,100,1.0,1.0,1.0,1.0,0
+Lifecycle Phase,ordinal,100,1.0,,,,0

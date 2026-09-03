@@ -1,0 +1,10 @@
+Check,Value,Expected,Status
+Table V Diff. — Failure Category,11,11,ok
+Table V Diff. — Propagation Reach,36,36,ok
+Table V Diff. — Risk Assessment,17,17,ok
+Table V Diff. — Recovery Complexity,9,9,ok
+A!=B cells (set-aware),1110,1110,ok
+Disagreements not in log,0,0,ok
+Logged entries with A==B,0,0,ok
+Consensus cells (A==B),2090,2090,
+Consensus cells corrected in corpus,0,0,ok

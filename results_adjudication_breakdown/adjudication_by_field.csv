@@ -1,0 +1,33 @@
+Field,Cells,LLM A,LLM B,Re-coded,% LLM A,% LLM B,% Re-coded
+Root Cause Description,100,100,0,0,100.0,0.0,0.0
+Missing Safeguard,100,100,0,0,100.0,0.0,0.0
+Causal Mechanism,100,100,0,0,100.0,0.0,0.0
+Manifestation — Brief Description,100,100,0,0,100.0,0.0,0.0
+Recovery / Maintenance Action(s),96,39,3,54,40.6,3.1,56.2
+Causal Location(s),75,45,3,27,60.0,4.0,36.0
+Impact Dimension(s),70,44,15,11,62.9,21.4,15.7
+Risk Subdomain,42,0,42,0,0.0,100.0,0.0
+Detection Signal,37,23,14,0,62.2,37.8,0.0
+Propagation Reach,36,14,19,3,38.9,52.8,8.3
+Temporal Pattern,32,24,8,0,75.0,25.0,0.0
+Timing / Period,32,20,12,0,62.5,37.5,0.0
+Propagation Chain,29,29,0,0,100.0,0.0,0.0
+Failure Mode(s),25,15,9,1,60.0,36.0,4.0
+Entity,25,25,0,0,100.0,0.0,0.0
+Title,24,24,0,0,100.0,0.0,0.0
+Recovery Evidence Status,24,15,9,0,62.5,37.5,0.0
+Detector,20,20,0,0,100.0,0.0,0.0
+Risk Domain,20,15,5,0,75.0,25.0,0.0
+Amplification,18,5,13,0,27.8,72.2,0.0
+Detection Timing,17,10,7,0,58.8,41.2,0.0
+Risk Assessment,17,3,14,0,17.6,82.4,0.0
+Industry,16,14,2,0,87.5,12.5,0.0
+System Type,14,13,1,0,92.9,7.1,0.0
+Manifestation Pattern,13,8,5,0,61.5,38.5,0.0
+Failure Category,11,5,6,0,45.5,54.5,0.0
+Recovery Complexity,9,8,1,0,88.9,11.1,0.0
+Transfer Mode,8,4,4,0,50.0,50.0,0.0
+Date,0,0,0,0,,,
+Application Domain,0,0,0,0,,,
+Boundary Transfer,0,0,0,0,,,
+Lifecycle Phase,0,0,0,0,,,

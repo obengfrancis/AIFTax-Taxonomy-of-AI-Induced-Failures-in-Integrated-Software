@@ -1,0 +1,3 @@
+n,chi_square,degrees_freedom,asymptotic_p,cramers_v,bias_corrected_cramers_v,expected_cells_below_5,total_cells,percent_expected_cells_below_5,minimum_expected_count,analysis,monte_carlo_p,monte_carlo_simulations,seed
+100,15.937297313603935,12,0.19412487121124086,0.23048714579923926,0.11453293346826866,13,20,65.0,0.1,Failure Category × Risk Assessment,0.20115899420502897,200000,20260731
+100,21.929234636215156,12,0.03832062036818931,0.27036539865038917,0.18361665881755646,12,20,60.0,0.2,Failure Category × Recovery Complexity,0.039889800550997244,200000,20260732

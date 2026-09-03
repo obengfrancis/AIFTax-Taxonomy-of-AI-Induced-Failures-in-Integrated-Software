@@ -1,0 +1,33 @@
+field,n_paired,c_ie_na,d_ie_na,c_blank,d_blank,status_exact_agreement,status_kappa
+Date,45,0,0,0,0,1.0,1.0
+Entity,45,0,0,0,0,1.0,1.0
+System Type,45,0,0,0,0,1.0,1.0
+Title,45,0,0,0,0,1.0,1.0
+Industry,45,0,0,0,0,1.0,1.0
+Application Domain,45,0,0,0,0,1.0,1.0
+Failure Category,45,5,1,0,0,0.9111111111111111,0.3076923076923084
+Failure Mode(s),45,5,1,0,0,0.9111111111111111,0.3076923076923084
+Manifestation Pattern,45,0,0,0,0,1.0,1.0
+Manifestation — Brief Description,45,0,0,0,0,1.0,1.0
+Propagation Reach,45,0,0,0,0,1.0,1.0
+Boundary Transfer,45,0,0,0,0,1.0,1.0
+Transfer Mode,45,0,0,0,0,1.0,1.0
+Amplification,45,0,0,0,0,1.0,1.0
+Propagation Chain,45,0,0,0,0,1.0,1.0
+Detection Timing,45,0,0,0,0,1.0,1.0
+Detector,45,0,0,0,0,1.0,1.0
+Detection Signal,45,0,0,0,0,1.0,1.0
+Impact Dimension(s),45,0,0,0,0,1.0,1.0
+Risk Assessment,45,0,0,0,0,1.0,1.0
+Risk Domain,45,0,0,0,0,1.0,1.0
+Risk Subdomain,45,0,0,0,0,1.0,1.0
+Recovery Complexity,45,28,1,0,0,0.4,0.0272217774219376
+Recovery Evidence Status,45,28,1,0,0,0.4,0.0272217774219376
+Recovery / Maintenance Action(s),45,28,1,0,0,0.4,0.0272217774219376
+Causal Location(s),45,5,1,0,0,0.9111111111111111,0.3076923076923084
+Causal Mechanism,45,0,1,0,0,0.9777777777777777,0.0
+Missing Safeguard,45,25,1,0,0,0.4666666666666667,0.03571428571428583
+Root Cause Description,45,0,1,0,0,0.9777777777777777,0.0
+Lifecycle Phase,45,0,0,0,0,1.0,1.0
+Temporal Pattern,45,0,0,0,0,1.0,1.0
+Timing / Period,45,0,0,0,0,1.0,1.0
