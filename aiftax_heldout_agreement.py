@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-AIFTax held-out inter-rater agreement analysis.
+AIFTax held-out inter-model agreement analysis.
 
-Compares two independent annotators on the same out-of-sample incidents.
+Compares two independent LLM annotators on the same out-of-sample incidents.
 
 Recommended use:
     python aiftax_heldout_agreement.py \

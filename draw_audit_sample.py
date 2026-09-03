@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AIFTAX author-coded validation audit: reproducible 30-case sample draw + blinded
+AIFTAX author-coded audit: reproducible 30-case sample draw + blinded
 32-field coding workbook.
 
 Runnable from the project root or from anywhere:
@@ -68,7 +68,7 @@ SAMPLE_SEED = 20260827
 ORDER_SEED  = 27082026
 EXPECT_SUBSTANTIVE = 32
 
-# Published pre-adjudication disagreement counts (Table V, n=100). Used to confirm the
+# Pre-adjudication disagreement counts. Used to confirm the
 # two workbooks loaded really are the unchanged pre-adjudication pair.
 EXPECTED_DIFFS = {"Failure Category": 11, "Propagation Reach": 36,
                   "Risk Assessment": 17, "Recovery Complexity": 9}
@@ -523,7 +523,7 @@ def main():
     ins = wb.active
     ins.title = "Instructions"
     lines = [
-        ("AIFTAX author-coded validation audit - coding workbook", True),
+        ("AIFTAX author-coded audit - coding workbook", True),
         ("", False),
         ("Performed by an author of the study. Code each case from the linked sources in the", False),
         ("controlled source set, using the frozen coding manual only. Where you recognise a case,", False),
